@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/OPEN_TEMP.kicad_sch</source>
+    <date>Date1</date>
+    <tool>Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1</tool>
+    <textvar name="ASSEMBLY_NOTES"/>
+    <textvar name="BOARD_NAME">AD7124-8</textvar>
+    <textvar name="COMPANY">OPEN THRUST LAB</textvar>
+    <textvar name="DESIGNER">SIEBERT DIMITRY</textvar>
+    <textvar name="FABRICATION_NOTES"/>
+    <textvar name="GIT_HASH_PCB">81d4a5f</textvar>
+    <textvar name="GIT_HASH_SCH">81d4a5f</textvar>
+    <textvar name="GIT_URL">https://github.com/foukouda/OPEN_TEMP</textvar>
+    <textvar name="PROJECT_NAME">OPEN_TEMP</textvar>
+    <textvar name="RELEASE_BODY_UNRELEASED">___________________________________
+
+Added
+
+-   KiCad 10 project from the OPEN_PHASE / OPEN_WEIGHT template
+
+-   Sheets: AD7124-8 ADC, NTC inputs, power, connectors, holes
+
+-   Doc sheets: block diagram, architecture, sequencing, revisions
+
+-   4x M3 mounting holes H1-H4 to GND
+
+-   JLCPCB 4-layer rules and stackup, self-contained lib/
+
+-   CI: KiBot, DRAFT variant</textvar>
+    <textvar name="RELEASE_DATE">24-Oct-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-10-24</textvar>
+    <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased</textvar>
+    <textvar name="REVISION">+ (Unreleased)</textvar>
+    <textvar name="SHEET_NAME_1">Cover Page</textvar>
+    <textvar name="SHEET_NAME_10">Revision History</textvar>
+    <textvar name="SHEET_NAME_11">......................................</textvar>
+    <textvar name="SHEET_NAME_12">......................................</textvar>
+    <textvar name="SHEET_NAME_13">......................................</textvar>
+    <textvar name="SHEET_NAME_14">......................................</textvar>
+    <textvar name="SHEET_NAME_15">......................................</textvar>
+    <textvar name="SHEET_NAME_16">......................................</textvar>
+    <textvar name="SHEET_NAME_17">......................................</textvar>
+    <textvar name="SHEET_NAME_18">......................................</textvar>
+    <textvar name="SHEET_NAME_19">......................................</textvar>
+    <textvar name="SHEET_NAME_2">Block Diagram</textvar>
+    <textvar name="SHEET_NAME_20">......................................</textvar>
+    <textvar name="SHEET_NAME_21">......................................</textvar>
+    <textvar name="SHEET_NAME_22">......................................</textvar>
+    <textvar name="SHEET_NAME_23">......................................</textvar>
+    <textvar name="SHEET_NAME_24">......................................</textvar>
+    <textvar name="SHEET_NAME_25">......................................</textvar>
+    <textvar name="SHEET_NAME_26">......................................</textvar>
+    <textvar name="SHEET_NAME_27">......................................</textvar>
+    <textvar name="SHEET_NAME_28">......................................</textvar>
+    <textvar name="SHEET_NAME_29">......................................</textvar>
+    <textvar name="SHEET_NAME_3">Project Architecture</textvar>
+    <textvar name="SHEET_NAME_30">......................................</textvar>
+    <textvar name="SHEET_NAME_31">......................................</textvar>
+    <textvar name="SHEET_NAME_32">......................................</textvar>
+    <textvar name="SHEET_NAME_33">......................................</textvar>
+    <textvar name="SHEET_NAME_34">......................................</textvar>
+    <textvar name="SHEET_NAME_35">......................................</textvar>
+    <textvar name="SHEET_NAME_36">......................................</textvar>
+    <textvar name="SHEET_NAME_37">......................................</textvar>
+    <textvar name="SHEET_NAME_38">......................................</textvar>
+    <textvar name="SHEET_NAME_39">......................................</textvar>
+    <textvar name="SHEET_NAME_4">AD7124-8_ADC</textvar>
+    <textvar name="SHEET_NAME_40">......................................</textvar>
+    <textvar name="SHEET_NAME_5">NTC_Inputs</textvar>
+    <textvar name="SHEET_NAME_6">Power_Supply</textvar>
+    <textvar name="SHEET_NAME_7">Connectors</textvar>
+    <textvar name="SHEET_NAME_8">Holes, Fiducials</textvar>
+    <textvar name="SHEET_NAME_9">Power - Sequencing</textvar>
+    <textvar name="VARIANT">DRAFT</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>OPEN_TEMP - AD7124-8</title>
+        <company>OPEN THRUST LAB</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>OPEN_TEMP.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Block Diagram/" tstamps="/08aa219e-45cc-4605-8189-6f3ffca47c81/">
+      <title_block>
+        <title>Block Diagram</title>
+        <company>OPEN THRUST LAB</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Block Diagram.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Project Architecture/" tstamps="/397927d1-b530-4fc4-8c45-69626f01402d/">
+      <title_block>
+        <title>Project Architecture</title>
+        <company>OPEN THRUST LAB</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Project Architecture.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Project Architecture/AD7124-8_ADC/" tstamps="/397927d1-b530-4fc4-8c45-69626f01402d/7dcd968e-d5b7-4599-965f-81dd567c982d/">
+      <title_block>
+        <title>AD7124-8 - ADC</title>
+        <company>OPEN THRUST LAB</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>AD7124-8 - ADC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Project Architecture/NTC_Inputs/" tstamps="/397927d1-b530-4fc4-8c45-69626f01402d/5cf8a963-37d9-4cf5-8212-00500da0179e/">
+      <title_block>
+        <title>NTC - Thermistors</title>
+        <company>OPEN THRUST LAB</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>NTC - Thermistors.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Project Architecture/Power_Supply/" tstamps="/397927d1-b530-4fc4-8c45-69626f01402d/5c705ac4-7216-412a-a4e4-fff98ed55c72/">
+      <title_block>
+        <title>Power Supply - Analog Rails</title>
+        <company>OPEN THRUST LAB</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Power Supply - Analog Rails.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Project Architecture/Connectors/" tstamps="/397927d1-b530-4fc4-8c45-69626f01402d/8d59c4a8-71f1-4850-bcac-75c40dad9599/">
+      <title_block>
+        <title>Connectors</title>
+        <company>OPEN THRUST LAB</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Connectors.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Project Architecture/Holes, Fiducials/" tstamps="/397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/">
+      <title_block>
+        <title>Holes - Fiducials</title>
+        <company>OPEN THRUST LAB</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Holes - Fiducials.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Power - Sequencing/" tstamps="/ce9b4ab1-d38d-4aa6-ba3a-d5a755081aac/">
+      <title_block>
+        <title>Power - Sequencing</title>
+        <company>OPEN THRUST LAB</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Power - Sequencing.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/Revision History/" tstamps="/b23d1d5b-8679-45f0-abe9-edc04284168f/">
+      <title_block>
+        <title>Revision History</title>
+        <company>OPEN THRUST LAB</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Revision History.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint">OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via</field>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="OPEN_TEMP" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes - Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/"/>
+      <tstamps>231c9389-f60f-4661-aac0-dba07805ef18</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint">OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via</field>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="OPEN_TEMP" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes - Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/"/>
+      <tstamps>8ad9df40-f10f-44ac-8b0b-db57240c24a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint">OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via</field>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="OPEN_TEMP" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes - Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/"/>
+      <tstamps>2cfcf24f-b5eb-433d-b7f7-dd765eaa2fab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint">OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via</field>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="OPEN_TEMP" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Holes, Fiducials"/>
+      <property name="Sheetfile" value="Holes - Fiducials.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/Holes, Fiducials/" tstamps="/397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/"/>
+      <tstamps>7152761a-3d6b-43a4-a878-8308b792264c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="OPEN_TEMP" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="OPEN_TEMP">
+      <uri>${KIPRJMOD}/lib/lib_sym/OPEN_TEMP.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND" class="Default">
+      <node ref="H1" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1_1" pintype="input"/>
+    </net>
+  </nets>
+</export>

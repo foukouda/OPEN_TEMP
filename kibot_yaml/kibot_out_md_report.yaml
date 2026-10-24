@@ -13,6 +13,9 @@ outputs:
     options:
       output: '@OUTPUT_NAME@.md'
       template: @TEMPLATE@
+      # The README template uses no collected PCB/SCH prints. With the default (auto) KiBot runs
+      # every pcb_print/pdf_sch_print output first, which fails on the DRAFT variant (no drill table yet).
+      collect_images: 'no'
 
 ...
 definitions:

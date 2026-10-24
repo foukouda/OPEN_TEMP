@@ -1,4 +1,4 @@
-DEBUG:KiBot 1.9.2 verbose level: 0 started on 2026-10-24 21:29:35.992453 (kibot - __main__.py:854)
+DEBUG:KiBot 1.9.2 verbose level: 0 started on 2026-10-24 21:33:52.351549 (kibot - __main__.py:854)
 DEBUG:Filtering warnings we always get on CI/CD (kibot - __main__.py:757)
 DEBUG:Command line options: {'--banner': None,
  '--board-file': None,
@@ -3331,7 +3331,7 @@ DEBUG:- PCB Material/s: FR4_7628 / FR4 (kibot.globals - globals.py:604)
 DEBUG:- Copper thickness: 35 / 15 (kibot.globals - globals.py:606)
 DEBUG:Configuring from default: aliases_for_3d_models -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: extra_os -> [] (kibot - optionable.py:377)
-DEBUG:Configuring from default: environment -> <kibot.globals.Environment object at 0x7f9704bb12b0> (kibot - optionable.py:377)
+DEBUG:Configuring from default: environment -> <kibot.globals.Environment object at 0x7fd05df052b0> (kibot - optionable.py:377)
 DEBUG:Configuring from default: field_tolerance -> ['tolerance', 'tol'] (kibot - optionable.py:613)
 DEBUG:Configuring from default: field_voltage -> ['voltage', 'v'] (kibot - optionable.py:613)
 DEBUG:Configuring from default: field_package -> ['package', 'pkg'] (kibot - optionable.py:613)
@@ -3385,7 +3385,7 @@ DEBUG:Adding groups: {'all_group': ['netlist', 'bom', '3d', 'fab', 'assembly', '
 DEBUG:Importing variants from the schematic (kibot - var_kicad.py:74)
 DEBUG:Mapping schematic `OPEN_TEMP.kicad_sch` to UUID `8f7323a2-cd6a-4eae-b718-676dffcb6ec2` found in `/github/workspace/OPEN_TEMP.kicad_pro` (kibot - kiplot.py:367)
 DEBUG:Loading sheet from /github/workspace/OPEN_TEMP.kicad_sch (kibot - v6_sch.py:2976)
-DEBUG:Current text variables: {'ASSEMBLY_NOTES': 'ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tDO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.\n\n2)\tDO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.\n\n3)\tIF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n\tFILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n4)\tCONFORMAL COATING IS NOT REQUIRED.\n\n5)\tDOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n\tWHEN VIEWED FROM THE TOP.', 'BOARD_NAME': 'AD7124-8', 'COMPANY': 'OPEN THRUST LAB', 'DESIGNER': 'SIEBERT DIMITRY', 'FABRICATION_NOTES': 'FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t"Edge_Cuts.GBR" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH ".DRL" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY OPEN THRUST LAB.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\tTBD\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.200 mm\n\tMIN. HOLE (NPTH)\t\t1.200 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.200 mm\n\tCOPPER TO EDGE\t\t0.200 mm\n\tHOLE TO HOLE\t\t\t0.250 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.', 'GIT_HASH_PCB': '', 'GIT_HASH_SCH': '', 'GIT_URL': 'https://github.com/foukouda/OPEN_TEMP', 'PROJECT_NAME': 'OPEN_TEMP', 'RELEASE_BODY_UNRELEASED': '___________________________________\n\nAdded\n\n-   KiCad 10 project from the OPEN_PHASE / OPEN_WEIGHT template\n\n-   Sheets: AD7124-8 ADC, NTC inputs, power, connectors, holes\n\n-   Doc sheets: block diagram, architecture, sequencing, revisions\n\n-   4x M3 mounting holes H1-H4 to GND\n\n-   JLCPCB 4-layer rules and stackup, self-contained lib/\n\n-   CI: KiBot, DRAFT variant', 'RELEASE_DATE': '24-Oct-2026', 'RELEASE_DATE_NUM': '2026-10-24', 'RELEASE_TITLE_UNRELEASED': 'Version Unreleased', 'REVISION': '+ (Unreleased)', 'SHEET_NAME_1': 'Cover Page', 'SHEET_NAME_10': 'Revision History', 'SHEET_NAME_11': '..............................', 'SHEET_NAME_12': '..............................', 'SHEET_NAME_13': '..............................', 'SHEET_NAME_14': '..............................', 'SHEET_NAME_15': '..............................', 'SHEET_NAME_16': '..............................', 'SHEET_NAME_17': '..............................', 'SHEET_NAME_18': '..............................', 'SHEET_NAME_19': '..............................', 'SHEET_NAME_2': 'Block Diagram', 'SHEET_NAME_20': '..............................', 'SHEET_NAME_21': '..............................', 'SHEET_NAME_22': '..............................', 'SHEET_NAME_23': '..............................', 'SHEET_NAME_24': '..............................', 'SHEET_NAME_25': '..............................', 'SHEET_NAME_26': '..............................', 'SHEET_NAME_27': '..............................', 'SHEET_NAME_28': '..............................', 'SHEET_NAME_29': '..............................', 'SHEET_NAME_3': 'Project Architecture', 'SHEET_NAME_30': '..............................', 'SHEET_NAME_31': '..............................', 'SHEET_NAME_32': '..............................', 'SHEET_NAME_33': '..............................', 'SHEET_NAME_34': '..............................', 'SHEET_NAME_35': '..............................', 'SHEET_NAME_36': '..............................', 'SHEET_NAME_37': '..............................', 'SHEET_NAME_38': '..............................', 'SHEET_NAME_39': '..............................', 'SHEET_NAME_4': 'AD7124-8_ADC', 'SHEET_NAME_40': '..............................', 'SHEET_NAME_5': 'NTC_Inputs', 'SHEET_NAME_6': 'Power_Supply', 'SHEET_NAME_7': 'Connectors', 'SHEET_NAME_8': 'Holes, Fiducials', 'SHEET_NAME_9': 'Power - Sequencing', 'VARIANT': 'DRAFT'} (kibot.gs - gs.py:373)
+DEBUG:Current text variables: {'ASSEMBLY_NOTES': '', 'BOARD_NAME': 'AD7124-8', 'COMPANY': 'OPEN THRUST LAB', 'DESIGNER': 'SIEBERT DIMITRY', 'FABRICATION_NOTES': '', 'GIT_HASH_PCB': '81d4a5f', 'GIT_HASH_SCH': '81d4a5f', 'GIT_URL': 'https://github.com/foukouda/OPEN_TEMP', 'PROJECT_NAME': 'OPEN_TEMP', 'RELEASE_BODY_UNRELEASED': '___________________________________\n\nAdded\n\n-   KiCad 10 project from the OPEN_PHASE / OPEN_WEIGHT template\n\n-   Sheets: AD7124-8 ADC, NTC inputs, power, connectors, holes\n\n-   Doc sheets: block diagram, architecture, sequencing, revisions\n\n-   4x M3 mounting holes H1-H4 to GND\n\n-   JLCPCB 4-layer rules and stackup, self-contained lib/\n\n-   CI: KiBot, DRAFT variant', 'RELEASE_DATE': '24-Oct-2026', 'RELEASE_DATE_NUM': '2026-10-24', 'RELEASE_TITLE_UNRELEASED': 'Version Unreleased', 'REVISION': '+ (Unreleased)', 'SHEET_NAME_1': 'Cover Page', 'SHEET_NAME_10': 'Revision History', 'SHEET_NAME_11': '......................................', 'SHEET_NAME_12': '......................................', 'SHEET_NAME_13': '......................................', 'SHEET_NAME_14': '......................................', 'SHEET_NAME_15': '......................................', 'SHEET_NAME_16': '......................................', 'SHEET_NAME_17': '......................................', 'SHEET_NAME_18': '......................................', 'SHEET_NAME_19': '......................................', 'SHEET_NAME_2': 'Block Diagram', 'SHEET_NAME_20': '......................................', 'SHEET_NAME_21': '......................................', 'SHEET_NAME_22': '......................................', 'SHEET_NAME_23': '......................................', 'SHEET_NAME_24': '......................................', 'SHEET_NAME_25': '......................................', 'SHEET_NAME_26': '......................................', 'SHEET_NAME_27': '......................................', 'SHEET_NAME_28': '......................................', 'SHEET_NAME_29': '......................................', 'SHEET_NAME_3': 'Project Architecture', 'SHEET_NAME_30': '......................................', 'SHEET_NAME_31': '......................................', 'SHEET_NAME_32': '......................................', 'SHEET_NAME_33': '......................................', 'SHEET_NAME_34': '......................................', 'SHEET_NAME_35': '......................................', 'SHEET_NAME_36': '......................................', 'SHEET_NAME_37': '......................................', 'SHEET_NAME_38': '......................................', 'SHEET_NAME_39': '......................................', 'SHEET_NAME_4': 'AD7124-8_ADC', 'SHEET_NAME_40': '......................................', 'SHEET_NAME_5': 'NTC_Inputs', 'SHEET_NAME_6': 'Power_Supply', 'SHEET_NAME_7': 'Connectors', 'SHEET_NAME_8': 'Holes, Fiducials', 'SHEET_NAME_9': 'Power - Sequencing', 'VARIANT': 'DRAFT'} (kibot.gs - gs.py:373)
 DEBUG:Replacing KiCad text variables: ${REVISION} -> + (Unreleased) (kibot.gs - gs.py:641)
 DEBUG:Replacing KiCad text variables: ${COMPANY} -> OPEN THRUST LAB (kibot.gs - gs.py:641)
 DEBUG:SCH title: `OPEN_TEMP - AD7124-8` (kibot - v6_sch.py:2531)
@@ -3455,11 +3455,11 @@ DEBUG:SCH title: `Holes - Fiducials` (kibot - v6_sch.py:2531)
 DEBUG:SCH date: `2026-10-24` (kibot - v6_sch.py:2532)
 DEBUG:SCH revision: `${REVISION}` (kibot - v6_sch.py:2533)
 DEBUG:SCH company: `${COMPANY}` (kibot - v6_sch.py:2534)
-DEBUG:- Loaded ?? (GND ) [id 140286596164848]  UUID aa43b39f-613d-41a5-8ecd-0ce58334bc6e original UUID aa43b39f-613d-41a5-8ecd-0ce58334bc6e (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (MountingHole_Pad ) [id 140286592937936]  UUID 231c9389-f60f-4661-aac0-dba07805ef18 original UUID 231c9389-f60f-4661-aac0-dba07805ef18 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (MountingHole_Pad ) [id 140286592938256]  UUID 7152761a-3d6b-43a4-a878-8308b792264c original UUID 7152761a-3d6b-43a4-a878-8308b792264c (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (MountingHole_Pad ) [id 140286592938576]  UUID 8ad9df40-f10f-44ac-8b0b-db57240c24a7 original UUID 8ad9df40-f10f-44ac-8b0b-db57240c24a7 (kibot - v6_sch.py:3128)
-DEBUG:- Loaded ?? (MountingHole_Pad ) [id 140286592938896]  UUID 2cfcf24f-b5eb-433d-b7f7-dd765eaa2fab original UUID 2cfcf24f-b5eb-433d-b7f7-dd765eaa2fab (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (GND ) [id 140532905962736]  UUID aa43b39f-613d-41a5-8ecd-0ce58334bc6e original UUID aa43b39f-613d-41a5-8ecd-0ce58334bc6e (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (MountingHole_Pad ) [id 140532902178768]  UUID 231c9389-f60f-4661-aac0-dba07805ef18 original UUID 231c9389-f60f-4661-aac0-dba07805ef18 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (MountingHole_Pad ) [id 140532902179088]  UUID 7152761a-3d6b-43a4-a878-8308b792264c original UUID 7152761a-3d6b-43a4-a878-8308b792264c (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (MountingHole_Pad ) [id 140532902179408]  UUID 8ad9df40-f10f-44ac-8b0b-db57240c24a7 original UUID 8ad9df40-f10f-44ac-8b0b-db57240c24a7 (kibot - v6_sch.py:3128)
+DEBUG:- Loaded ?? (MountingHole_Pad ) [id 140532902179728]  UUID 2cfcf24f-b5eb-433d-b7f7-dd765eaa2fab original UUID 2cfcf24f-b5eb-433d-b7f7-dd765eaa2fab (kibot - v6_sch.py:3128)
 DEBUG:Collected sheet instances (kibot - v6_sch.py:2910)
 DEBUG:- / -> 1 (kibot - v6_sch.py:2912)
 DEBUG:Collected symbol instances (kibot - v6_sch.py:2913)
@@ -3485,11 +3485,11 @@ DEBUG:  - /397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1
 DEBUG:  - /397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/8ad9df40-f10f-44ac-8b0b-db57240c24a7 -> ?? (MountingHole_Pad ) (kibot - v6_sch.py:2920)
 DEBUG:  - /397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/2cfcf24f-b5eb-433d-b7f7-dd765eaa2fab -> ?? (MountingHole_Pad ) (kibot - v6_sch.py:2920)
 DEBUG:Assigning components to instances (kibot - v6_sch.py:3176)
-DEBUG:- /397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/aa43b39f-613d-41a5-8ecd-0ce58334bc6e -> #PWR02 -> 140286596164848 aa43b39f-613d-41a5-8ecd-0ce58334bc6e (kibot - v6_sch.py:3221)
-DEBUG:- /397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/231c9389-f60f-4661-aac0-dba07805ef18 -> H1 -> 140286592937936 231c9389-f60f-4661-aac0-dba07805ef18 (kibot - v6_sch.py:3221)
-DEBUG:- /397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/7152761a-3d6b-43a4-a878-8308b792264c -> H4 -> 140286592938256 7152761a-3d6b-43a4-a878-8308b792264c (kibot - v6_sch.py:3221)
-DEBUG:- /397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/8ad9df40-f10f-44ac-8b0b-db57240c24a7 -> H2 -> 140286592938576 8ad9df40-f10f-44ac-8b0b-db57240c24a7 (kibot - v6_sch.py:3221)
-DEBUG:- /397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/2cfcf24f-b5eb-433d-b7f7-dd765eaa2fab -> H3 -> 140286592938896 2cfcf24f-b5eb-433d-b7f7-dd765eaa2fab (kibot - v6_sch.py:3221)
+DEBUG:- /397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/aa43b39f-613d-41a5-8ecd-0ce58334bc6e -> #PWR02 -> 140532905962736 aa43b39f-613d-41a5-8ecd-0ce58334bc6e (kibot - v6_sch.py:3221)
+DEBUG:- /397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/231c9389-f60f-4661-aac0-dba07805ef18 -> H1 -> 140532902178768 231c9389-f60f-4661-aac0-dba07805ef18 (kibot - v6_sch.py:3221)
+DEBUG:- /397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/7152761a-3d6b-43a4-a878-8308b792264c -> H4 -> 140532902179088 7152761a-3d6b-43a4-a878-8308b792264c (kibot - v6_sch.py:3221)
+DEBUG:- /397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/8ad9df40-f10f-44ac-8b0b-db57240c24a7 -> H2 -> 140532902179408 8ad9df40-f10f-44ac-8b0b-db57240c24a7 (kibot - v6_sch.py:3221)
+DEBUG:- /397927d1-b530-4fc4-8c45-69626f01402d/a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8/2cfcf24f-b5eb-433d-b7f7-dd765eaa2fab -> H3 -> 140532902179728 2cfcf24f-b5eb-433d-b7f7-dd765eaa2fab (kibot - v6_sch.py:3221)
 DEBUG:Schematic dependencies: ['/github/workspace/AD7124-8 - ADC.kicad_sch', '/github/workspace/Block Diagram.kicad_sch', '/github/workspace/Connectors.kicad_sch', '/github/workspace/Holes - Fiducials.kicad_sch', '/github/workspace/NTC - Thermistors.kicad_sch', '/github/workspace/OPEN_TEMP.kicad_sch', '/github/workspace/Power - Sequencing.kicad_sch', '/github/workspace/Power Supply - Analog Rails.kicad_sch', '/github/workspace/Project Architecture.kicad_sch', '/github/workspace/Revision History.kicad_sch'] (kibot - kiplot.py:380)
 DEBUG:Font Arial_Bold.ttf already installed (kibot - kiplot.py:1405)
 DEBUG:Font Arial_Italic.ttf already installed (kibot - kiplot.py:1405)
@@ -3549,7 +3549,7 @@ DEBUG:Skipping `draw_fancy_stackup` (kibot - kiplot.py:695)
 DEBUG:Skipping `erc` (kibot - kiplot.py:695)
 DEBUG:Skipping `drc` (kibot - kiplot.py:695)
 DEBUG:Preflight apply set_text_variables (kibot.pre_base - pre_base.py:161)
-DEBUG:- Current variables: {'ASSEMBLY_NOTES': 'ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tDO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.\n\n2)\tDO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.\n\n3)\tIF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n\tFILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n4)\tCONFORMAL COATING IS NOT REQUIRED.\n\n5)\tDOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n\tWHEN VIEWED FROM THE TOP.', 'BOARD_NAME': 'AD7124-8', 'COMPANY': 'OPEN THRUST LAB', 'DESIGNER': 'SIEBERT DIMITRY', 'FABRICATION_NOTES': 'FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t"Edge_Cuts.GBR" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH ".DRL" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY OPEN THRUST LAB.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\tTBD\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.200 mm\n\tMIN. HOLE (NPTH)\t\t1.200 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.200 mm\n\tCOPPER TO EDGE\t\t0.200 mm\n\tHOLE TO HOLE\t\t\t0.250 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.', 'GIT_HASH_PCB': '', 'GIT_HASH_SCH': '', 'GIT_URL': 'https://github.com/foukouda/OPEN_TEMP', 'PROJECT_NAME': 'OPEN_TEMP', 'RELEASE_BODY_UNRELEASED': '___________________________________\n\nAdded\n\n-   KiCad 10 project from the OPEN_PHASE / OPEN_WEIGHT template\n\n-   Sheets: AD7124-8 ADC, NTC inputs, power, connectors, holes\n\n-   Doc sheets: block diagram, architecture, sequencing, revisions\n\n-   4x M3 mounting holes H1-H4 to GND\n\n-   JLCPCB 4-layer rules and stackup, self-contained lib/\n\n-   CI: KiBot, DRAFT variant', 'RELEASE_DATE': '24-Oct-2026', 'RELEASE_DATE_NUM': '2026-10-24', 'RELEASE_TITLE_UNRELEASED': 'Version Unreleased', 'REVISION': '+ (Unreleased)', 'SHEET_NAME_1': 'Cover Page', 'SHEET_NAME_10': 'Revision History', 'SHEET_NAME_11': '..............................', 'SHEET_NAME_12': '..............................', 'SHEET_NAME_13': '..............................', 'SHEET_NAME_14': '..............................', 'SHEET_NAME_15': '..............................', 'SHEET_NAME_16': '..............................', 'SHEET_NAME_17': '..............................', 'SHEET_NAME_18': '..............................', 'SHEET_NAME_19': '..............................', 'SHEET_NAME_2': 'Block Diagram', 'SHEET_NAME_20': '..............................', 'SHEET_NAME_21': '..............................', 'SHEET_NAME_22': '..............................', 'SHEET_NAME_23': '..............................', 'SHEET_NAME_24': '..............................', 'SHEET_NAME_25': '..............................', 'SHEET_NAME_26': '..............................', 'SHEET_NAME_27': '..............................', 'SHEET_NAME_28': '..............................', 'SHEET_NAME_29': '..............................', 'SHEET_NAME_3': 'Project Architecture', 'SHEET_NAME_30': '..............................', 'SHEET_NAME_31': '..............................', 'SHEET_NAME_32': '..............................', 'SHEET_NAME_33': '..............................', 'SHEET_NAME_34': '..............................', 'SHEET_NAME_35': '..............................', 'SHEET_NAME_36': '..............................', 'SHEET_NAME_37': '..............................', 'SHEET_NAME_38': '..............................', 'SHEET_NAME_39': '..............................', 'SHEET_NAME_4': 'AD7124-8_ADC', 'SHEET_NAME_40': '..............................', 'SHEET_NAME_5': 'NTC_Inputs', 'SHEET_NAME_6': 'Power_Supply', 'SHEET_NAME_7': 'Connectors', 'SHEET_NAME_8': 'Holes, Fiducials', 'SHEET_NAME_9': 'Power - Sequencing', 'VARIANT': 'DRAFT'} (kibot - pre_set_text_variables.py:141)
+DEBUG:- Current variables: {'ASSEMBLY_NOTES': '', 'BOARD_NAME': 'AD7124-8', 'COMPANY': 'OPEN THRUST LAB', 'DESIGNER': 'SIEBERT DIMITRY', 'FABRICATION_NOTES': '', 'GIT_HASH_PCB': '81d4a5f', 'GIT_HASH_SCH': '81d4a5f', 'GIT_URL': 'https://github.com/foukouda/OPEN_TEMP', 'PROJECT_NAME': 'OPEN_TEMP', 'RELEASE_BODY_UNRELEASED': '___________________________________\n\nAdded\n\n-   KiCad 10 project from the OPEN_PHASE / OPEN_WEIGHT template\n\n-   Sheets: AD7124-8 ADC, NTC inputs, power, connectors, holes\n\n-   Doc sheets: block diagram, architecture, sequencing, revisions\n\n-   4x M3 mounting holes H1-H4 to GND\n\n-   JLCPCB 4-layer rules and stackup, self-contained lib/\n\n-   CI: KiBot, DRAFT variant', 'RELEASE_DATE': '24-Oct-2026', 'RELEASE_DATE_NUM': '2026-10-24', 'RELEASE_TITLE_UNRELEASED': 'Version Unreleased', 'REVISION': '+ (Unreleased)', 'SHEET_NAME_1': 'Cover Page', 'SHEET_NAME_10': 'Revision History', 'SHEET_NAME_11': '......................................', 'SHEET_NAME_12': '......................................', 'SHEET_NAME_13': '......................................', 'SHEET_NAME_14': '......................................', 'SHEET_NAME_15': '......................................', 'SHEET_NAME_16': '......................................', 'SHEET_NAME_17': '......................................', 'SHEET_NAME_18': '......................................', 'SHEET_NAME_19': '......................................', 'SHEET_NAME_2': 'Block Diagram', 'SHEET_NAME_20': '......................................', 'SHEET_NAME_21': '......................................', 'SHEET_NAME_22': '......................................', 'SHEET_NAME_23': '......................................', 'SHEET_NAME_24': '......................................', 'SHEET_NAME_25': '......................................', 'SHEET_NAME_26': '......................................', 'SHEET_NAME_27': '......................................', 'SHEET_NAME_28': '......................................', 'SHEET_NAME_29': '......................................', 'SHEET_NAME_3': 'Project Architecture', 'SHEET_NAME_30': '......................................', 'SHEET_NAME_31': '......................................', 'SHEET_NAME_32': '......................................', 'SHEET_NAME_33': '......................................', 'SHEET_NAME_34': '......................................', 'SHEET_NAME_35': '......................................', 'SHEET_NAME_36': '......................................', 'SHEET_NAME_37': '......................................', 'SHEET_NAME_38': '......................................', 'SHEET_NAME_39': '......................................', 'SHEET_NAME_4': 'AD7124-8_ADC', 'SHEET_NAME_40': '......................................', 'SHEET_NAME_5': 'NTC_Inputs', 'SHEET_NAME_6': 'Power_Supply', 'SHEET_NAME_7': 'Connectors', 'SHEET_NAME_8': 'Holes, Fiducials', 'SHEET_NAME_9': 'Power - Sequencing', 'VARIANT': 'DRAFT'} (kibot - pre_set_text_variables.py:141)
 DEBUG:  - REVISION -> + (Unreleased) (kibot - pre_set_text_variables.py:173)
 DEBUG:Starting tool check for Git (kibot - dep_downloader.py:866)
 DEBUG:- Checking binary tool Git (kibot - dep_downloader.py:772)
@@ -3973,12 +3973,12 @@ DEBUG:Using global `variant`=`DRAFT` (kibot - optionable.py:58)
 DEBUG:Configuring from default: pre_transform -> _null (kibot - optionable.py:377)
 DEBUG:Configuring from default: exclude_filter -> _null (kibot - optionable.py:377)
 DEBUG:Configuring from default: dnf_filter -> _null (kibot - optionable.py:377)
-DEBUG:Configuring from default: options -> <kibot.out_netlist.NetlistOptions object at 0x7f9704bb3620> (kibot - optionable.py:377)
+DEBUG:Configuring from default: options -> <kibot.out_netlist.NetlistOptions object at 0x7fd05df07620> (kibot - optionable.py:377)
 - 'Schematic netlist in KiCad format' (netlist) [netlist]
-DEBUG:Expanding `/github/workspace/././` in PCB context for <kibot.out_netlist.NetlistOptions object at 0x7f9704bb3620> parent: 'Schematic netlist in KiCad format' (netlist) [netlist] (kibot - optionable.py:508)
+DEBUG:Expanding `/github/workspace/././` in PCB context for <kibot.out_netlist.NetlistOptions object at 0x7fd05df07620> parent: 'Schematic netlist in KiCad format' (netlist) [netlist] (kibot - optionable.py:508)
 DEBUG:Expanded `/github/workspace/././` (kibot - optionable.py:554)
 DEBUG:Output destination: /github/workspace (kibot - kiplot.py:704)
-DEBUG:Expanding `%f-%i%I%v.%x` in PCB context for <kibot.out_netlist.NetlistOptions object at 0x7f9704bb3620> parent: 'Schematic netlist in KiCad format' (netlist) [netlist] (kibot - optionable.py:508)
+DEBUG:Expanding `%f-%i%I%v.%x` in PCB context for <kibot.out_netlist.NetlistOptions object at 0x7fd05df07620> parent: 'Schematic netlist in KiCad format' (netlist) [netlist] (kibot - optionable.py:508)
 DEBUG:Replacing KiCad text variables: ${REVISION} -> + (Unreleased) (kibot.gs - gs.py:641)
 DEBUG:Replacing KiCad text variables: ${COMPANY} -> OPEN THRUST LAB (kibot.gs - gs.py:641)
 DEBUG:PCB title: `OPEN_TEMP - AD7124-8` (kibot.gs - gs.py:684)
@@ -4053,23 +4053,23 @@ DEBUG:Filters reset (kibot - fil_base.py:196)
 DEBUG:Applying filter `_kibom_dnf_Config` to fitted (kibot - fil_base.py:216)
 DEBUG:Applying filter `_kibom_dnc_Config` to fixed (kibot - fil_base.py:226)
 DEBUG:Applying KiBoM style variants `DRAFT` (kibot - var_kibom.py:91)
-DEBUG:Copying project `/github/workspace/OPEN_TEMP.kicad_pro` to `/tmp/tmp-kibot-net_sch_print-ttdcagdc/OPEN_TEMP.kicad_pro` (kibot.gs - gs.py:752)
-DEBUG:Copying /github/workspace/Templates/KDT_Template_PCB_GIT_A4.kicad_wks -> /tmp/tmp-kibot-net_sch_print-ttdcagdc/pcbnew.kicad_wks (kibot - config.py:680)
+DEBUG:Copying project `/github/workspace/OPEN_TEMP.kicad_pro` to `/tmp/tmp-kibot-net_sch_print-vussbhh1/OPEN_TEMP.kicad_pro` (kibot.gs - gs.py:752)
+DEBUG:Copying /github/workspace/Templates/KDT_Template_PCB_GIT_A4.kicad_wks -> /tmp/tmp-kibot-net_sch_print-vussbhh1/pcbnew.kicad_wks (kibot - config.py:680)
 DEBUG:Replacing page layout Templates/KDT_Template_PCB_GIT_A4.kicad_wks -> pcbnew.kicad_wks (kibot - config.py:683)
-DEBUG:Copying /github/workspace/Templates/KDT_Template_GIT.kicad_wks -> /tmp/tmp-kibot-net_sch_print-ttdcagdc/schematic.kicad_wks (kibot - config.py:680)
+DEBUG:Copying /github/workspace/Templates/KDT_Template_GIT.kicad_wks -> /tmp/tmp-kibot-net_sch_print-vussbhh1/schematic.kicad_wks (kibot - config.py:680)
 DEBUG:Replacing page layout Templates/KDT_Template_GIT.kicad_wks -> schematic.kicad_wks (kibot - config.py:683)
-DEBUG:Saving modified project to /tmp/tmp-kibot-net_sch_print-ttdcagdc/OPEN_TEMP.kicad_pro (kibot - config.py:699)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-ttdcagdc/OPEN_TEMP.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-ttdcagdc/Power - Sequencing.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-ttdcagdc/Revision History.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-ttdcagdc/Block Diagram.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-ttdcagdc/Project Architecture.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-ttdcagdc/AD7124-8 - ADC.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-ttdcagdc/NTC - Thermistors.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-ttdcagdc/Power Supply - Analog Rails.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-ttdcagdc/Connectors.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-ttdcagdc/Holes - Fiducials.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:- Executing: kicad-cli sch export netlist --format kicadsexpr --output /github/workspace/OPEN_TEMP-netlist.net /tmp/tmp-kibot-net_sch_print-ttdcagdc/OPEN_TEMP.kicad_sch (kibot - kiplot.py:162)
+DEBUG:Saving modified project to /tmp/tmp-kibot-net_sch_print-vussbhh1/OPEN_TEMP.kicad_pro (kibot - config.py:699)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-vussbhh1/OPEN_TEMP.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-vussbhh1/Power - Sequencing.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-vussbhh1/Revision History.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-vussbhh1/Block Diagram.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-vussbhh1/Project Architecture.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-vussbhh1/AD7124-8 - ADC.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-vussbhh1/NTC - Thermistors.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-vussbhh1/Power Supply - Analog Rails.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-vussbhh1/Connectors.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-net_sch_print-vussbhh1/Holes - Fiducials.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:- Executing: kicad-cli sch export netlist --format kicadsexpr --output /github/workspace/OPEN_TEMP-netlist.net /tmp/tmp-kibot-net_sch_print-vussbhh1/OPEN_TEMP.kicad_sch (kibot - kiplot.py:162)
 DEBUG:Using global `output`=`%f-%i%I%v.%x` (kibot - optionable.py:58)
 DEBUG:Using global `variant`=`DRAFT` (kibot - optionable.py:58)
 DEBUG:Configuring from default: cost_extra_columns -> [] (kibot - optionable.py:377)
@@ -4079,7 +4079,7 @@ DEBUG:Configuring from default: lcsc_link -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: logo ->  (kibot - optionable.py:377)
 DEBUG:Configuring from default: extra_info -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: row_colors -> [] (kibot - optionable.py:377)
-DEBUG:Configuring from default: html -> <kibot.out_bom.BoMHTML object at 0x7f9704bb3a10> (kibot - optionable.py:377)
+DEBUG:Configuring from default: html -> <kibot.out_bom.BoMHTML object at 0x7fd05df07a10> (kibot - optionable.py:377)
 DEBUG:Configuring from default: digikey_link -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: mouser_link -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: lcsc_link -> [] (kibot - optionable.py:377)
@@ -4089,14 +4089,14 @@ DEBUG:Configuring from default: row_colors -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: kicost_api_enable -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: kicost_api_disable -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: specs_columns -> [] (kibot - optionable.py:377)
-DEBUG:Configuring from default: xlsx -> <kibot.out_bom.BoMXLSX object at 0x7f9704bb38c0> (kibot - optionable.py:377)
-DEBUG:Configuring from default: hrtxt -> <kibot.out_bom.BoMTXT object at 0x7f9704bb3b60> (kibot - optionable.py:377)
+DEBUG:Configuring from default: xlsx -> <kibot.out_bom.BoMXLSX object at 0x7fd05df078c0> (kibot - optionable.py:377)
+DEBUG:Configuring from default: hrtxt -> <kibot.out_bom.BoMTXT object at 0x7fd05df07b60> (kibot - optionable.py:377)
 DEBUG:Configuring from default: digikey_link -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: mouser_link -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: lcsc_link -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: logo ->  (kibot - optionable.py:377)
 DEBUG:Configuring from default: extra_info -> [] (kibot - optionable.py:377)
-DEBUG:Configuring from default: json -> <kibot.out_bom.BoMLinkableSimple object at 0x7f9704bb3cb0> (kibot - optionable.py:377)
+DEBUG:Configuring from default: json -> <kibot.out_bom.BoMLinkableSimple object at 0x7fd05df07cb0> (kibot - optionable.py:377)
 DEBUG:Configuring from default: pre_transform -> _null (kibot - optionable.py:377)
 DEBUG:Configuring from default: exclude_filter -> ['_mechanical'] (kibot - optionable.py:377)
 DEBUG:Configuring from default: dnf_filter -> ['_kibom_dnf_CONFIG_FIELD'] (kibot - optionable.py:377)
@@ -4128,10 +4128,10 @@ DEBUG:Filtered warning: (W062) Invalid column name `Supplier Part Number`. Valid
 DEBUG:Valid columns: ['Row', 'Description', 'Part', 'Part Lib', 'References', 'Value', 'Footprint', 'Footprint Lib', 'Quantity Per PCB', 'Build Quantity', 'Status', 'Datasheet', 'Sheetpath', 'Source BoM', 'Reference'] (15) (kibot - out_bom.py:732)
 DEBUG:Configuring from default: groups -> [] (kibot - optionable.py:377)
 - 'Bill of Materials in CSV format' (csv_bom) [bom]
-DEBUG:Expanding `/github/workspace/./Manufacturing/Assembly` in SCH context for <kibot.out_bom.BoMOptions object at 0x7f9704bb2f90> parent: 'Bill of Materials in CSV format' (csv_bom) [bom] (kibot - optionable.py:508)
+DEBUG:Expanding `/github/workspace/./Manufacturing/Assembly` in SCH context for <kibot.out_bom.BoMOptions object at 0x7fd05df06f90> parent: 'Bill of Materials in CSV format' (csv_bom) [bom] (kibot - optionable.py:508)
 DEBUG:Expanded `/github/workspace/./Manufacturing/Assembly` (kibot - optionable.py:554)
 DEBUG:Output destination: /github/workspace/Manufacturing/Assembly (kibot - kiplot.py:704)
-DEBUG:Expanding `%f-%i%I%v.%x` in SCH context for <kibot.out_bom.BoMOptions object at 0x7f9704bb2f90> parent: 'Bill of Materials in CSV format' (csv_bom) [bom] (kibot - optionable.py:508)
+DEBUG:Expanding `%f-%i%I%v.%x` in SCH context for <kibot.out_bom.BoMOptions object at 0x7fd05df06f90> parent: 'Bill of Materials in CSV format' (csv_bom) [bom] (kibot - optionable.py:508)
 DEBUG:Expanded `OPEN_TEMP-bom.csv` (kibot - optionable.py:554)
 DEBUG:Before collapse: (kibot - v5_sch.py:1729)
 DEBUG:After collapse: (kibot - v5_sch.py:1771)
@@ -4226,15 +4226,15 @@ DEBUG:Configuring from default: row_colors -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: kicost_api_enable -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: kicost_api_disable -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: specs_columns -> [] (kibot - optionable.py:377)
-DEBUG:Configuring from default: xlsx -> <kibot.out_bom.BoMXLSX object at 0x7f970490ad50> (kibot - optionable.py:377)
-DEBUG:Configuring from default: csv -> <kibot.out_bom.BoMCSV object at 0x7f970490ae90> (kibot - optionable.py:377)
-DEBUG:Configuring from default: hrtxt -> <kibot.out_bom.BoMTXT object at 0x7f970490afd0> (kibot - optionable.py:377)
+DEBUG:Configuring from default: xlsx -> <kibot.out_bom.BoMXLSX object at 0x7fd05dbfad50> (kibot - optionable.py:377)
+DEBUG:Configuring from default: csv -> <kibot.out_bom.BoMCSV object at 0x7fd05dbfae90> (kibot - optionable.py:377)
+DEBUG:Configuring from default: hrtxt -> <kibot.out_bom.BoMTXT object at 0x7fd05dbfafd0> (kibot - optionable.py:377)
 DEBUG:Configuring from default: digikey_link -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: mouser_link -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: lcsc_link -> [] (kibot - optionable.py:377)
 DEBUG:Configuring from default: logo ->  (kibot - optionable.py:377)
 DEBUG:Configuring from default: extra_info -> [] (kibot - optionable.py:377)
-DEBUG:Configuring from default: json -> <kibot.out_bom.BoMLinkableSimple object at 0x7f970490b110> (kibot - optionable.py:377)
+DEBUG:Configuring from default: json -> <kibot.out_bom.BoMLinkableSimple object at 0x7fd05dbfb110> (kibot - optionable.py:377)
 DEBUG:Configuring from default: pre_transform -> _null (kibot - optionable.py:377)
 DEBUG:Configuring from default: exclude_filter -> ['_mechanical'] (kibot - optionable.py:377)
 DEBUG:Configuring from default: dnf_filter -> ['_kibom_dnf_CONFIG_FIELD'] (kibot - optionable.py:377)
@@ -4247,7 +4247,7 @@ DEBUG:Configuring from default: no_distributors -> [] (kibot - optionable.py:377
 DEBUG:Configuring from default: sort_field -> ['Reference'] (kibot - optionable.py:377)
 DEBUG:Configuring from default: footprint_populate_values -> ['no', 'yes'] (kibot - optionable.py:377)
 DEBUG:Configuring from default: footprint_type_values -> ['SMD', 'THT', 'VIRTUAL'] (kibot - optionable.py:377)
-DEBUG:Expanding `Bill of Materials` in SCH context for <kibot.out_bom.BoMOptions object at 0x7f970490aad0> parent: 'Bill of Materials in HTML format' (html_bom) [bom] (kibot - optionable.py:508)
+DEBUG:Expanding `Bill of Materials` in SCH context for <kibot.out_bom.BoMOptions object at 0x7fd05dbfaad0> parent: 'Bill of Materials in HTML format' (html_bom) [bom] (kibot - optionable.py:508)
 DEBUG:Expanded `Bill of Materials` (kibot - optionable.py:554)
 DEBUG:Valid columns: ['Row', 'Description', 'Part', 'Part Lib', 'References', 'Value', 'Footprint', 'Footprint Lib', 'Quantity Per PCB', 'Build Quantity', 'Status', 'Datasheet', 'Sheetpath', 'Source BoM', 'Reference'] (15) (kibot - out_bom.py:732)
 DEBUG:Filtered warning: (W062) Invalid column name `Manufacturer`. Valid columns are ['Row', 'Description', 'Part', 'Part Lib', 'References', 'Value', 'Footprint', 'Footprint Lib', 'Quantity Per PCB', 'Build Quantity', 'Status', 'Datasheet', 'Sheetpath', 'Source BoM', 'Reference', '${DNP}', '${EXCLUDE_FROM_BOARD}', '${EXCLUDE_FROM_SIM}', 'footprint full', 'Footprint X', 'Footprint Y', 'Footprint Rot', 'Footprint Side', 'Footprint Type', 'Footprint Type NV', 'Footprint Populate', 'Footprint X-Size', 'Footprint Y-Size', '${ITEM_NUMBER}', 'Net Name', 'Net Label', 'Net Class', '${QUANTITY}']. (kibot - log.py:130)
@@ -4256,10 +4256,10 @@ DEBUG:Filtered warning: (W062) Invalid column name `Supplier Part Number`. Valid
 DEBUG:Valid columns: ['Row', 'Description', 'Part', 'Part Lib', 'References', 'Value', 'Footprint', 'Footprint Lib', 'Quantity Per PCB', 'Build Quantity', 'Status', 'Datasheet', 'Sheetpath', 'Source BoM', 'Reference'] (15) (kibot - out_bom.py:732)
 DEBUG:Configuring from default: groups -> [] (kibot - optionable.py:377)
 - 'Bill of Materials in HTML format' (html_bom) [bom]
-DEBUG:Expanding `/github/workspace/./Manufacturing/Assembly` in SCH context for <kibot.out_bom.BoMOptions object at 0x7f970490aad0> parent: 'Bill of Materials in HTML format' (html_bom) [bom] (kibot - optionable.py:508)
+DEBUG:Expanding `/github/workspace/./Manufacturing/Assembly` in SCH context for <kibot.out_bom.BoMOptions object at 0x7fd05dbfaad0> parent: 'Bill of Materials in HTML format' (html_bom) [bom] (kibot - optionable.py:508)
 DEBUG:Expanded `/github/workspace/./Manufacturing/Assembly` (kibot - optionable.py:554)
 DEBUG:Output destination: /github/workspace/Manufacturing/Assembly (kibot - kiplot.py:704)
-DEBUG:Expanding `%f-%i%I%v.%x` in SCH context for <kibot.out_bom.BoMOptions object at 0x7f970490aad0> parent: 'Bill of Materials in HTML format' (html_bom) [bom] (kibot - optionable.py:508)
+DEBUG:Expanding `%f-%i%I%v.%x` in SCH context for <kibot.out_bom.BoMOptions object at 0x7fd05dbfaad0> parent: 'Bill of Materials in HTML format' (html_bom) [bom] (kibot - optionable.py:508)
 DEBUG:Expanded `OPEN_TEMP-bom.html` (kibot - optionable.py:554)
 DEBUG:Before collapse: (kibot - v5_sch.py:1729)
 DEBUG:After collapse: (kibot - v5_sch.py:1771)
@@ -4313,10 +4313,10 @@ DEBUG:Configuring from default: exclude_filter -> _null (kibot - optionable.py:3
 DEBUG:Configuring from default: dnf_filter -> _null (kibot - optionable.py:377)
 DEBUG:Configuring from default: groups -> [] (kibot - optionable.py:377)
 - 'Schematic in PDF format' (pdf_schematic) [pdf_sch_print]
-DEBUG:Expanding `/github/workspace/./Schematic` in SCH context for <kibot.out_pdf_sch_print.PDF_SCH_PrintOptions object at 0x7f9704c61400> parent: 'Schematic in PDF format' (pdf_schematic) [pdf_sch_print] (kibot - optionable.py:508)
+DEBUG:Expanding `/github/workspace/./Schematic` in SCH context for <kibot.out_pdf_sch_print.PDF_SCH_PrintOptions object at 0x7fd05df25400> parent: 'Schematic in PDF format' (pdf_schematic) [pdf_sch_print] (kibot - optionable.py:508)
 DEBUG:Expanded `/github/workspace/./Schematic` (kibot - optionable.py:554)
 DEBUG:Output destination: /github/workspace/Schematic (kibot - kiplot.py:704)
-DEBUG:Expanding `%f-%i%I%v.%x` in SCH context for <kibot.out_pdf_sch_print.PDF_SCH_PrintOptions object at 0x7f9704c61400> parent: 'Schematic in PDF format' (pdf_schematic) [pdf_sch_print] (kibot - optionable.py:508)
+DEBUG:Expanding `%f-%i%I%v.%x` in SCH context for <kibot.out_pdf_sch_print.PDF_SCH_PrintOptions object at 0x7fd05df25400> parent: 'Schematic in PDF format' (pdf_schematic) [pdf_sch_print] (kibot - optionable.py:508)
 DEBUG:Expanded `OPEN_TEMP-schematic.pdf` (kibot - optionable.py:554)
 DEBUG:Filters reset (kibot - fil_base.py:196)
 DEBUG:Applying filter `_kibom_dnf_Config` to fitted (kibot - fil_base.py:216)
@@ -4332,193 +4332,12 @@ DEBUG:Configuring from default: pre_transform -> _null (kibot - optionable.py:37
 DEBUG:Configuring from default: exclude_filter -> _null (kibot - optionable.py:377)
 DEBUG:Configuring from default: dnf_filter -> _null (kibot - optionable.py:377)
 DEBUG:Configuring from default: groups -> [] (kibot - optionable.py:377)
-DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f9704b64050> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
+DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7fd05dd38050> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
 DEBUG:Expanded `/github/workspace/./Images` (kibot - optionable.py:554)
 DEBUG:Output destination: /github/workspace/Images (kibot - kiplot.py:704)
-DEBUG:Expanding `%f-angled_bottom%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f9704b64050> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
+DEBUG:Expanding `%f-angled_bottom%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7fd05dd38050> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
 DEBUG:Expanded `OPEN_TEMP-angled_bottom.png` (kibot - optionable.py:554)
 DEBUG:- Related image: /github/workspace/Images/OPEN_TEMP-angled_bottom.png (kibot - out_base.py:1410)
-DEBUG:- Not yet generated, tying to generate it (kibot - out_base.py:1415)
-  - 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d]
-DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f9704b64050> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
-DEBUG:Expanded `/github/workspace/./Images` (kibot - optionable.py:554)
-DEBUG:Output destination: /github/workspace/Images (kibot - kiplot.py:704)
-DEBUG:Expanding `%f-angled_bottom%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f9704b64050> parent: 'Bottom (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_bottom) [render_3d] (kibot - optionable.py:508)
-DEBUG:Expanded `OPEN_TEMP-angled_bottom.png` (kibot - optionable.py:554)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:H1 (MountingHole_Pad): 1 {'Reference': 'H1', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1732)
-DEBUG:H4 (MountingHole_Pad): 1 {'Reference': 'H4', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1732)
-DEBUG:H2 (MountingHole_Pad): 1 {'Reference': 'H2', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1732)
-DEBUG:H3 (MountingHole_Pad): 1 {'Reference': 'H3', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1732)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:H1 (MountingHole_Pad): 1 {'Reference': 'H1', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1774)
-DEBUG:H4 (MountingHole_Pad): 1 {'Reference': 'H4', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1774)
-DEBUG:H2 (MountingHole_Pad): 1 {'Reference': 'H2', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1774)
-DEBUG:H3 (MountingHole_Pad): 1 {'Reference': 'H3', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1774)
-DEBUG:Filters reset (kibot - fil_base.py:196)
-DEBUG:Applying filter `_kibom_dnf_Config` to fitted (kibot - fil_base.py:216)
-DEBUG:Applying filter `_kibom_dnc_Config` to fixed (kibot - fil_base.py:226)
-DEBUG:Applying KiBoM style variants `DRAFT` (kibot - var_kibom.py:91)
-DEBUG:Filtered warning: (W143) This output depends on KiCad version, use `blender_export` instead (kibot - log.py:130)
-DEBUG:Starting tool check for ImageMagick (kibot - dep_downloader.py:866)
-DEBUG:- Checking binary tool ImageMagick (kibot - dep_downloader.py:772)
-DEBUG:- Looking for tool `convert` at system level (kibot - dep_downloader.py:700)
-DEBUG:- Checking version for `/usr/bin/convert` (kibot - dep_downloader.py:667)
-DEBUG:- No particular version needed (kibot - dep_downloader.py:681)
-DEBUG:- Running ['/usr/bin/convert', '--version'] (kibot - dep_downloader.py:633)
-DEBUG:- Looking for version in `Version: ImageMagick 7.1.1-43 Q16 x86_64 22550 https://imagemagick.org
-Copyright: (C) 1999 ImageMagick Studio LLC
-License: https://imagemagick.org/script/license.php
-Features: Cipher DPC Modules OpenMP(4.5) 
-Delegates (built-in): bzlib djvu fftw fontconfig freetype heic jbig jng jp2 jpeg lcms lqr ltdl lzma openexr pangocairo png raw tiff webp wmf x xml zlib zstd
-Compiler: gcc (14.2)` (kibot - dep_downloader.py:659)
-DEBUG:- Found version (7, 1, 1, 43) (kibot - dep_downloader.py:694)
-DEBUG:- Returning `/usr/bin/convert` (kibot - dep_downloader.py:873)
-DEBUG:Looking for colors for the 3D render from the stack-up (kibot - out_render_3d.py:354)
-DEBUG:- Core #6D744BD3 -> #6D744BD3 (kibot - out_render_3d.py:365)
-DEBUG:- Solder mask bottom white -> #f5f5f5d4 (kibot - out_render_3d.py:371)
-DEBUG:- Solder mask top white -> #f5f5f5d4 (kibot - out_render_3d.py:375)
-DEBUG:- Silk bottom top black -> #0b0b0bff (kibot - out_render_3d.py:380)
-DEBUG:- Silk screen top black -> #0b0b0bff (kibot - out_render_3d.py:384)
-DEBUG:- Copper Immersion gold -> #b29c00ff (gold) (kibot - out_render_3d.py:393)
-DEBUG:- Solder paste grey -> #808080ff (kibot - out_render_3d.py:403)
-DEBUG:Crossing modules (kibot - out_base.py:388)
-DEBUG:Removing paste, mask and/or glue (kibot - out_base.py:539)
-DEBUG:Disable 3D models that aren't for this variant (kibot - out_base.py:881)
-DEBUG:Removing 3D models that aren't fitted (kibot - out_base.py:775)
-DEBUG:VARIANT* processing (kibot - out_base_3d.py:710)
-DEBUG:Looking for LCSC field name (kibot - optionable.py:707)
-DEBUG:Using LCSC# as LCSC field name (kibot - optionable.py:709)
-DEBUG:Using `/github/home/cache_3d` as dir for downloaded 3D models (kibot - out_base_3d.py:546)
-DEBUG:Writing modified PCB to /github/workspace/kibot_t3r5_0jw.kicad_pcb (kibot - gs.py:1548)
-DEBUG:Copying project `/github/workspace/OPEN_TEMP.kicad_pro` to `/github/workspace/kibot_t3r5_0jw.kicad_pro` (kibot.gs - gs.py:713)
-DEBUG:Copying project local settings `/github/workspace/OPEN_TEMP.kicad_prl` to `/github/workspace/kibot_t3r5_0jw.kicad_prl` (kibot.gs - gs.py:721)
-DEBUG:Copying project custom design rules `/github/workspace/OPEN_TEMP.kicad_dru` to `/github/workspace/kibot_t3r5_0jw.kicad_dru` (kibot.gs - gs.py:729)
-DEBUG:Restoring paste, mask and/or glue (kibot - out_base.py:629)
-DEBUG:Enable 3D models that aren't for this variant (kibot - out_base.py:881)
-DEBUG:- Executing: kicad-cli pcb render --output /github/workspace/Images/OPEN_TEMP-angled_bottom.png --width 2016 --height 2016 --side bottom --background transparent --quality high --preset _kibot_preset --pan 0,0,-1 --pivot 0,0,0 --rotate -20,10,10 /github/workspace/kibot_t3r5_0jw.kicad_pcb (kibot - kiplot.py:162)
-DEBUG:- Output from command: Loading…
-Build board outline
-Board outline is missing or malformed. Run DRC for a full analysis.
-Create layers
-Create tracks and vias
-Create zones
-Build Tech layers
-Build Tech layer 11
-Build Tech layer 9
-Build Tech layer 15
-Build Tech layer 13
-Build Tech layer 7
-Build Tech layer 5
-Build Tech layer 3
-Build Tech layer 1
-Build Tech layer 17
-Build Tech layer 19
-Build Tech layer 21
-Build Tech layer 23
-Build Tech layer 39
-Build Tech layer 41
-Build Tech layer 43
-Build Tech layer 45
-Build Tech layer 47
-Build Tech layer 49
-Build Tech layer 51
-Build Tech layer 53
-Build Tech layer 55
-Build Tech layer 57
-Build Tech layer 59
-Build Tech layer 61
-Build Tech layer 63
-Build Tech layer 65
-Build Tech layer 67
-Build Tech layer 69
-Build Tech layer 71
-Build Tech layer 73
-Build Tech layer 75
-Build Tech layer 77
-Build Tech layer 79
-Build Tech layer 81
-Build Tech layer 83
-Build Tech layer 85
-Build Tech layer 87
-Build Tech layer 89
-Build Tech layer 91
-Build Tech layer 93
-Build Tech layer 95
-Build Tech layer 97
-Build Tech layer 99
-Build Tech layer 101
-Build Tech layer 103
-Build Tech layer 105
-Build Tech layer 107
-Build Tech layer 109
-Build Tech layer 111
-Build Tech layer 113
-Build Tech layer 115
-Build Tech layer 117
-Build Tech layer 119
-Build Tech layer 121
-Build Tech layer 123
-Build Tech layer 125
-Build Tech layer 127
-Simplifying copper layer polygons
-Calculating plated copper
-Simplify holes contours
-Build BVH for holes and vias
-Load Raytracing: board
-Load Raytracing: layers
-Loading 3D models...
-Reload time 0.001 s
-Rendering: 5 %
-Rendering: 10 %
-Rendering: 15 %
-Rendering: 17 %
-Rendering: 21 %
-Rendering: 26 %
-Rendering: 31 %
-Rendering: 36 %
-Rendering: 41 %
-Rendering: 46 %
-Rendering: 51 %
-Rendering: 56 %
-Rendering: 61 %
-Rendering: 66 %
-Rendering: 70 %
-Rendering: 75 %
-Rendering: 80 %
-Rendering: 85 %
-Rendering: 90 %
-Rendering: 95 %
-Rendering: 100 %
-Rendering: 100 %
-Rendering: Post processing shader
-Rendering time 17.241 s
-Successfully created 3D render image
- (kibot - kiplot.py:153)
-DEBUG:Removing temporal files (kibot - out_base.py:1267)
-DEBUG:- File `/github/workspace/kibot_t3r5_0jw.kicad_pcb` (kibot - out_base.py:1270)
-DEBUG:- File `/github/workspace/kibot_t3r5_0jw.kicad_pro` (kibot - out_base.py:1270)
-DEBUG:- File `/github/workspace/kibot_t3r5_0jw.kicad_prl` (kibot - out_base.py:1270)
-DEBUG:- File `/github/workspace/kibot_t3r5_0jw.kicad_dru` (kibot - out_base.py:1270)
-DEBUG:- Executing: /usr/bin/convert /github/workspace/Images/OPEN_TEMP-angled_bottom.png -trim +repage -trim +repage /github/workspace/Images/OPEN_TEMP-angled_bottom.png (kibot - kiplot.py:162)
 DEBUG:- Reading image (kibot - out_base.py:1419)
 DEBUG:Parsing PNG chunks (kibot - misc.py:888)
 DEBUG:- Chunk b'IHDR' (13) (kibot - misc.py:891)
@@ -4544,186 +4363,12 @@ DEBUG:Configuring from default: pre_transform -> _null (kibot - optionable.py:37
 DEBUG:Configuring from default: exclude_filter -> _null (kibot - optionable.py:377)
 DEBUG:Configuring from default: dnf_filter -> _null (kibot - optionable.py:377)
 DEBUG:Configuring from default: groups -> [] (kibot - optionable.py:377)
-DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f9704af91d0> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
+DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7fd05dcd1310> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
 DEBUG:Expanded `/github/workspace/./Images` (kibot - optionable.py:554)
 DEBUG:Output destination: /github/workspace/Images (kibot - kiplot.py:704)
-DEBUG:Expanding `%f-angled_top%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f9704af91d0> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
+DEBUG:Expanding `%f-angled_top%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7fd05dcd1310> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
 DEBUG:Expanded `OPEN_TEMP-angled_top.png` (kibot - optionable.py:554)
 DEBUG:- Related image: /github/workspace/Images/OPEN_TEMP-angled_top.png (kibot - out_base.py:1410)
-DEBUG:- Not yet generated, tying to generate it (kibot - out_base.py:1415)
-  - 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d]
-DEBUG:Expanding `/github/workspace/./Images` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f9704af91d0> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
-DEBUG:Expanded `/github/workspace/./Images` (kibot - optionable.py:554)
-DEBUG:Output destination: /github/workspace/Images (kibot - kiplot.py:704)
-DEBUG:Expanding `%f-angled_top%I%v.%x` in PCB context for <kibot.out_render_3d.Render3DOptions object at 0x7f9704af91d0> parent: 'Top (angled) 3D viewer PCB render in PNG format' (png_3d_viewer_angled_top) [render_3d] (kibot - optionable.py:508)
-DEBUG:Expanded `OPEN_TEMP-angled_top.png` (kibot - optionable.py:554)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:Before collapse: (kibot - v5_sch.py:1729)
-DEBUG:H1 (MountingHole_Pad): 1 {'Reference': 'H1', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1732)
-DEBUG:H4 (MountingHole_Pad): 1 {'Reference': 'H4', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1732)
-DEBUG:H2 (MountingHole_Pad): 1 {'Reference': 'H2', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1732)
-DEBUG:H3 (MountingHole_Pad): 1 {'Reference': 'H3', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1732)
-DEBUG:After collapse: (kibot - v5_sch.py:1771)
-DEBUG:H1 (MountingHole_Pad): 1 {'Reference': 'H1', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1774)
-DEBUG:H4 (MountingHole_Pad): 1 {'Reference': 'H4', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1774)
-DEBUG:H2 (MountingHole_Pad): 1 {'Reference': 'H2', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1774)
-DEBUG:H3 (MountingHole_Pad): 1 {'Reference': 'H3', 'Value': 'MountingHole_Pad', 'Footprint': 'OPEN_TEMP:MountingHole_3.2mm_M3_Pad_Via', 'Datasheet': '', 'Description': 'Mounting Hole with connection', 'part': 'MountingHole_Pad'} (kibot - v5_sch.py:1774)
-DEBUG:Filters reset (kibot - fil_base.py:196)
-DEBUG:Applying filter `_kibom_dnf_Config` to fitted (kibot - fil_base.py:216)
-DEBUG:Applying filter `_kibom_dnc_Config` to fixed (kibot - fil_base.py:226)
-DEBUG:Applying KiBoM style variants `DRAFT` (kibot - var_kibom.py:91)
-DEBUG:Filtered warning: (W143) This output depends on KiCad version, use `blender_export` instead (kibot - log.py:130)
-DEBUG:Starting tool check for ImageMagick (kibot - dep_downloader.py:866)
-DEBUG:- Checking binary tool ImageMagick (kibot - dep_downloader.py:772)
-DEBUG:- Looking for tool `convert` at system level (kibot - dep_downloader.py:700)
-DEBUG:- Checking version for `/usr/bin/convert` (kibot - dep_downloader.py:667)
-DEBUG:- No particular version needed (kibot - dep_downloader.py:681)
-DEBUG:- Cached version (7, 1, 1, 43) (kibot - dep_downloader.py:687)
-DEBUG:- Returning `/usr/bin/convert` (kibot - dep_downloader.py:873)
-DEBUG:Looking for colors for the 3D render from the stack-up (kibot - out_render_3d.py:354)
-DEBUG:- Core #6D744BD3 -> #6D744BD3 (kibot - out_render_3d.py:365)
-DEBUG:- Solder mask bottom white -> #f5f5f5d4 (kibot - out_render_3d.py:371)
-DEBUG:- Solder mask top white -> #f5f5f5d4 (kibot - out_render_3d.py:375)
-DEBUG:- Silk bottom top black -> #0b0b0bff (kibot - out_render_3d.py:380)
-DEBUG:- Silk screen top black -> #0b0b0bff (kibot - out_render_3d.py:384)
-DEBUG:- Copper Immersion gold -> #b29c00ff (gold) (kibot - out_render_3d.py:393)
-DEBUG:- Solder paste grey -> #808080ff (kibot - out_render_3d.py:403)
-DEBUG:Crossing modules (kibot - out_base.py:388)
-DEBUG:Removing paste, mask and/or glue (kibot - out_base.py:539)
-DEBUG:Disable 3D models that aren't for this variant (kibot - out_base.py:881)
-DEBUG:Removing 3D models that aren't fitted (kibot - out_base.py:775)
-DEBUG:VARIANT* processing (kibot - out_base_3d.py:710)
-DEBUG:Looking for LCSC field name (kibot - optionable.py:707)
-DEBUG:Using LCSC# as LCSC field name (kibot - optionable.py:709)
-DEBUG:Using `/github/home/cache_3d` as dir for downloaded 3D models (kibot - out_base_3d.py:546)
-DEBUG:Writing modified PCB to /github/workspace/kibot_m5hei4ze.kicad_pcb (kibot - gs.py:1548)
-DEBUG:Copying project `/github/workspace/OPEN_TEMP.kicad_pro` to `/github/workspace/kibot_m5hei4ze.kicad_pro` (kibot.gs - gs.py:713)
-DEBUG:Copying project local settings `/github/workspace/OPEN_TEMP.kicad_prl` to `/github/workspace/kibot_m5hei4ze.kicad_prl` (kibot.gs - gs.py:721)
-DEBUG:Copying project custom design rules `/github/workspace/OPEN_TEMP.kicad_dru` to `/github/workspace/kibot_m5hei4ze.kicad_dru` (kibot.gs - gs.py:729)
-DEBUG:Restoring paste, mask and/or glue (kibot - out_base.py:629)
-DEBUG:Enable 3D models that aren't for this variant (kibot - out_base.py:881)
-DEBUG:- Executing: kicad-cli pcb render --output /github/workspace/Images/OPEN_TEMP-angled_top.png --width 2016 --height 2016 --side top --background transparent --quality high --preset _kibot_preset --pan 0,0,-1 --pivot 0,0,0 --rotate -20,10,-10 /github/workspace/kibot_m5hei4ze.kicad_pcb (kibot - kiplot.py:162)
-DEBUG:- Output from command: Loading…
-Build board outline
-Board outline is missing or malformed. Run DRC for a full analysis.
-Create layers
-Create tracks and vias
-Create zones
-Build Tech layers
-Build Tech layer 11
-Build Tech layer 9
-Build Tech layer 15
-Build Tech layer 13
-Build Tech layer 7
-Build Tech layer 5
-Build Tech layer 3
-Build Tech layer 1
-Build Tech layer 17
-Build Tech layer 19
-Build Tech layer 21
-Build Tech layer 23
-Build Tech layer 39
-Build Tech layer 41
-Build Tech layer 43
-Build Tech layer 45
-Build Tech layer 47
-Build Tech layer 49
-Build Tech layer 51
-Build Tech layer 53
-Build Tech layer 55
-Build Tech layer 57
-Build Tech layer 59
-Build Tech layer 61
-Build Tech layer 63
-Build Tech layer 65
-Build Tech layer 67
-Build Tech layer 69
-Build Tech layer 71
-Build Tech layer 73
-Build Tech layer 75
-Build Tech layer 77
-Build Tech layer 79
-Build Tech layer 81
-Build Tech layer 83
-Build Tech layer 85
-Build Tech layer 87
-Build Tech layer 89
-Build Tech layer 91
-Build Tech layer 93
-Build Tech layer 95
-Build Tech layer 97
-Build Tech layer 99
-Build Tech layer 101
-Build Tech layer 103
-Build Tech layer 105
-Build Tech layer 107
-Build Tech layer 109
-Build Tech layer 111
-Build Tech layer 113
-Build Tech layer 115
-Build Tech layer 117
-Build Tech layer 119
-Build Tech layer 121
-Build Tech layer 123
-Build Tech layer 125
-Build Tech layer 127
-Simplifying copper layer polygons
-Calculating plated copper
-Simplify holes contours
-Build BVH for holes and vias
-Load Raytracing: board
-Load Raytracing: layers
-Loading 3D models...
-Reload time 0.001 s
-Rendering: 5 %
-Rendering: 10 %
-Rendering: 15 %
-Rendering: 17 %
-Rendering: 21 %
-Rendering: 26 %
-Rendering: 31 %
-Rendering: 36 %
-Rendering: 41 %
-Rendering: 46 %
-Rendering: 51 %
-Rendering: 55 %
-Rendering: 60 %
-Rendering: 65 %
-Rendering: 70 %
-Rendering: 75 %
-Rendering: 80 %
-Rendering: 85 %
-Rendering: 89 %
-Rendering: 94 %
-Rendering: 99 %
-Rendering: 100 %
-Rendering: Post processing shader
-Rendering time 17.355 s
-Successfully created 3D render image
- (kibot - kiplot.py:153)
-DEBUG:Removing temporal files (kibot - out_base.py:1267)
-DEBUG:- File `/github/workspace/kibot_m5hei4ze.kicad_pcb` (kibot - out_base.py:1270)
-DEBUG:- File `/github/workspace/kibot_m5hei4ze.kicad_pro` (kibot - out_base.py:1270)
-DEBUG:- File `/github/workspace/kibot_m5hei4ze.kicad_prl` (kibot - out_base.py:1270)
-DEBUG:- File `/github/workspace/kibot_m5hei4ze.kicad_dru` (kibot - out_base.py:1270)
-DEBUG:- Executing: /usr/bin/convert /github/workspace/Images/OPEN_TEMP-angled_top.png -trim +repage -trim +repage /github/workspace/Images/OPEN_TEMP-angled_top.png (kibot - kiplot.py:162)
 DEBUG:- Reading image (kibot - out_base.py:1419)
 DEBUG:Parsing PNG chunks (kibot - misc.py:888)
 DEBUG:- Chunk b'IHDR' (13) (kibot - misc.py:891)
@@ -4740,25 +4385,25 @@ DEBUG:- Chunk b'IEND' (0) (kibot - misc.py:891)
 DEBUG:- PNG: 538x535 px 300 PPIs 45.550666666666665x45.29666666666667 mm (kibot - out_base.py:1441)
 DEBUG:- Box: 22.86,166.37 +69.85,78.74 mm (kibot - out_base.py:1442)
 DEBUG:- Scale 1.533457249070632 (kibot - out_base.py:1444)
-DEBUG:Copying project `/github/workspace/OPEN_TEMP.kicad_pro` to `/tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/OPEN_TEMP.kicad_pro` (kibot.gs - gs.py:752)
-DEBUG:Copying /github/workspace/Templates/KDT_Template_PCB_GIT_A4.kicad_wks -> /tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/pcbnew.kicad_wks (kibot - config.py:680)
+DEBUG:Copying project `/github/workspace/OPEN_TEMP.kicad_pro` to `/tmp/tmp-kibot-pdf_sch_print-oga0ximp/OPEN_TEMP.kicad_pro` (kibot.gs - gs.py:752)
+DEBUG:Copying /github/workspace/Templates/KDT_Template_PCB_GIT_A4.kicad_wks -> /tmp/tmp-kibot-pdf_sch_print-oga0ximp/pcbnew.kicad_wks (kibot - config.py:680)
 DEBUG:Replacing page layout Templates/KDT_Template_PCB_GIT_A4.kicad_wks -> pcbnew.kicad_wks (kibot - config.py:683)
-DEBUG:Copying /github/workspace/Templates/KDT_Template_GIT.kicad_wks -> /tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/schematic.kicad_wks (kibot - config.py:680)
+DEBUG:Copying /github/workspace/Templates/KDT_Template_GIT.kicad_wks -> /tmp/tmp-kibot-pdf_sch_print-oga0ximp/schematic.kicad_wks (kibot - config.py:680)
 DEBUG:Replacing page layout Templates/KDT_Template_GIT.kicad_wks -> schematic.kicad_wks (kibot - config.py:683)
-DEBUG:Saving modified project to /tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/OPEN_TEMP.kicad_pro (kibot - config.py:699)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/OPEN_TEMP.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/Power - Sequencing.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/Revision History.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/Block Diagram.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/Project Architecture.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/AD7124-8 - ADC.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/NTC - Thermistors.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/Power Supply - Analog Rails.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/Connectors.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/Holes - Fiducials.kicad_sch` (kibot - v6_sch.py:2748)
-DEBUG:- Executing: kicad-cli sch export pdf -o /github/workspace/Schematic/OPEN_TEMP-schematic.pdf --theme Altium_Theme --no-background-color --default-font 'Times New Roman' /tmp/tmp-kibot-pdf_sch_print-9bjt9mq5/OPEN_TEMP.kicad_sch (kibot - kiplot.py:162)
+DEBUG:Saving modified project to /tmp/tmp-kibot-pdf_sch_print-oga0ximp/OPEN_TEMP.kicad_pro (kibot - config.py:699)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-oga0ximp/OPEN_TEMP.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-oga0ximp/Power - Sequencing.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-oga0ximp/Revision History.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-oga0ximp/Block Diagram.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-oga0ximp/Project Architecture.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-oga0ximp/AD7124-8 - ADC.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-oga0ximp/NTC - Thermistors.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-oga0ximp/Power Supply - Analog Rails.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-oga0ximp/Connectors.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:Saving schematic: `/tmp/tmp-kibot-pdf_sch_print-oga0ximp/Holes - Fiducials.kicad_sch` (kibot - v6_sch.py:2748)
+DEBUG:- Executing: kicad-cli sch export pdf -o /github/workspace/Schematic/OPEN_TEMP-schematic.pdf --theme Altium_Theme --no-background-color --default-font 'Times New Roman' /tmp/tmp-kibot-pdf_sch_print-oga0ximp/OPEN_TEMP.kicad_sch (kibot - kiplot.py:162)
 DEBUG:- Output from command: Plotted to '/github/workspace/Schematic/OPEN_TEMP-schematic.pdf'.
 Done.
  (kibot - kiplot.py:153)
 DEBUG:Restoring images in schematic (kibot - out_base.py:1492)
-Found 1 unique warning/s (12 total, 10 filtered)
+Found 1 unique warning/s (10 total, 8 filtered)

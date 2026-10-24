@@ -1,0 +1,372 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cc383e5b-cb06-40d8-bad7-3cef7b232d6f")
+	(paper "A3")
+	(title_block
+		(title "NTC - Thermistors")
+		(date "2026-10-24")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 161.29 20.32 0)
+		(size 96.52 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "3e44143b-eb00-4e5b-8fb0-3336608d59a8")
+	)
+	(rectangle
+		(start 45.72 39.37)
+		(end 266.7 240.03)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "40e6f911-c208-4a70-a73e-e3f830244f67")
+	)
+	(text_box "THERMISTANCES NTC   ·   VOIES DE MESURE ET FILTRES D'ENTRÉE"
+		(exclude_from_sim no)
+		(at 45.72 39.37 0)
+		(size 220.98 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 162 22 34 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "05d39acf-d3d2-4ab1-b45a-fb2f6e14609c")
+	)
+	(text "À DESSINER"
+		(exclude_from_sim no)
+		(at 156.21 142.24 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 200 200 200 1)
+			)
+		)
+		(uuid "c300c1de-062e-467d-a04a-e5f8ef6ac40d")
+	)
+	(text_box "DESCRIPTION"
+		(exclude_from_sim no)
+		(at 270.51 39.37 0)
+		(size 102.87 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 105 120 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "7387a15a-9b40-43d4-b69b-e9cf683edbec")
+	)
+	(text_box "Voies de mesure des thermistances NTC : pont diviseur (résistance de pont + NTC) et filtre RC d'entrée vers les entrées AIN de l'AD7124-8 (page 4). Les sondes arrivent par les connecteurs (page 7)."
+		(exclude_from_sim no)
+		(at 270.51 45.72 0)
+		(size 102.87 9.65)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 230 243 245 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "6e0e54ae-2b53-4e5b-8b3b-71a294023209")
+	)
+	(text_box "DESIGN NOTE · CHOIX À FAIRE"
+		(exclude_from_sim no)
+		(at 270.51 56.64 0)
+		(size 102.87 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 205 100 0 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "6302b7e1-f5c1-4401-a107-dc52c821c04f")
+	)
+	(text_box "• Nombre de voies NTC.\n• NTC : résistance à 25 °C et coefficient B, plage de température visée.\n• Résistance de pont : valeur, tolérance et dérive (elles fixent la précision).\n• Mesure ratiométrique : alimenter les ponts par la tension prise comme référence de l'ADC.\n• Filtre RC : fréquence de coupure ; protection ESD si les sondes sont déportées."
+		(exclude_from_sim no)
+		(at 270.51 62.99 0)
+		(size 102.87 13.95)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 253 241 226 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8daa4d10-1923-4c43-9d8f-b47b5b45defa")
+	)
+	(text_box "LAYOUT NOTE"
+		(exclude_from_sim no)
+		(at 270.51 78.21 0)
+		(size 102.87 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 82 165 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "c4c2daeb-ac84-4ba0-aab8-b5b8d14a0e80")
+	)
+	(text_box "À compléter : pistes des sondes loin des signaux numériques, filtres près de l'ADC, résistances de pont à l'écart des sources de chaleur."
+		(exclude_from_sim no)
+		(at 270.51 84.56 0)
+		(size 102.87 7.5)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 228 238 250 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0ecfe552-ffc2-4fc6-90e9-e7b624010157")
+	)
+	(text_box "CALCULS & BUDGET"
+		(exclude_from_sim no)
+		(at 270.51 93.33 0)
+		(size 102.87 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 46 125 50 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "2cfb2ef3-4047-4b1e-8457-4b55d1bfd4d8")
+	)
+	(text_box "À compléter : courant dans chaque pont (auto-échauffement de la NTC), sensibilité en V/°C sur la plage, résolution en °C par LSB, erreur due à la résistance de pont."
+		(exclude_from_sim no)
+		(at 270.51 99.68 0)
+		(size 102.87 7.5)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 232 245 233 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "89b4f07f-3b05-4ea9-955c-d6cd54e2640b")
+	)
+	(text_box "TEST POINTS"
+		(exclude_from_sim no)
+		(at 45.72 243 0)
+		(size 172.72 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 106 27 154 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "08f181c5-8c84-46eb-a950-9cb99d5f27f4")
+	)
+	(text_box "Zone réservée aux test points."
+		(exclude_from_sim no)
+		(at 45.72 249.35 0)
+		(size 172.72 35.65)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 243 232 246 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 110 90 120 1)
+			)
+			(justify left top)
+		)
+		(uuid "5f71970a-ddb2-4a0c-960a-4fc5050810d0")
+	)
+	(text "References:"
+		(exclude_from_sim no)
+		(at 265.43 250.19 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c21f557-2777-4977-a496-3e6a4459a764")
+	)
+	(text "README : Specifications"
+		(exclude_from_sim no)
+		(at 265.43 254 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://github.com/foukouda/OPEN_TEMP#specifications")
+		)
+		(uuid "05c983f8-6b96-44f3-9354-9eeb00149505")
+	)
+	(text "README : Design decisions"
+		(exclude_from_sim no)
+		(at 265.43 256.54 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://github.com/foukouda/OPEN_TEMP#design-decisions")
+		)
+		(uuid "a90c48ca-92bb-4d0a-b189-2e63932de659")
+	)
+)

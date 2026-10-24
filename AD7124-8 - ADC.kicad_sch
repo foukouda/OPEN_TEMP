@@ -1,0 +1,372 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "dc00a2bc-04f2-4aa2-af83-629a97b78b95")
+	(paper "A3")
+	(title_block
+		(title "AD7124-8 - ADC")
+		(date "2026-10-24")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 161.29 20.32 0)
+		(size 96.52 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "b4294d31-8d1b-4e1c-9d4c-acbee6fd156f")
+	)
+	(rectangle
+		(start 45.72 39.37)
+		(end 266.7 240.03)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "16916e0e-b060-4bb0-9d2e-47fe2c0228c9")
+	)
+	(text_box "AD7124-8   ·   ADC SIGMA-DELTA 24 BITS, 8 ENTRÉES DIFFÉRENTIELLES / 15 PSEUDO-DIFFÉRENTIELLES"
+		(exclude_from_sim no)
+		(at 45.72 39.37 0)
+		(size 220.98 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 162 22 34 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "49a61059-e08c-4c27-b4b2-8b2323a96ec8")
+	)
+	(text "À DESSINER"
+		(exclude_from_sim no)
+		(at 156.21 142.24 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 200 200 200 1)
+			)
+		)
+		(uuid "cde24d2b-4617-4075-b142-df9d3d23621a")
+	)
+	(text_box "DESCRIPTION"
+		(exclude_from_sim no)
+		(at 270.51 39.37 0)
+		(size 102.87 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 105 120 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "2b0d6e5c-f65d-46d7-b7d2-4e47f57ea24d")
+	)
+	(text_box "IC1 AD7124-8 (LFCSP-32 5 × 5 mm, boîtier CP-32-12) : ADC sigma-delta 24 bits avec PGA, référence interne, sources de courant d'excitation programmables et interface SPI.\nIl numérise les tensions des voies NTC (page 5) et dialogue avec l'hôte par le connecteur (page 7)."
+		(exclude_from_sim no)
+		(at 270.51 45.72 0)
+		(size 102.87 11.8)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 230 243 245 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d2f18f1a-46fd-4228-88f4-e23d06efc06f")
+	)
+	(text_box "DESIGN NOTE · CONFIGURATION À DÉFINIR"
+		(exclude_from_sim no)
+		(at 270.51 58.79 0)
+		(size 102.87 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 205 100 0 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "95de3512-ed7a-4753-be08-2340cc084c93")
+	)
+	(text_box "• Référence : ratiométrique (REFIN = tension d'alimentation des ponts NTC) ou référence interne.\n• Affectation des entrées AIN0 à AIN15 aux voies NTC, entrée commune.\n• Mode de puissance et débit de sortie (compromis bruit / vitesse / consommation).\n• Horloge : oscillateur interne ou externe. Broche SYNC : utilisée ou non."
+		(exclude_from_sim no)
+		(at 270.51 65.14 0)
+		(size 102.87 13.95)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 253 241 226 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "3c992906-3b09-4ad6-93c5-0443fdf1d7a1")
+	)
+	(text_box "LAYOUT NOTE"
+		(exclude_from_sim no)
+		(at 270.51 80.36 0)
+		(size 102.87 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 82 165 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "10d5b1f3-48f4-43d4-91bb-3915a4f8cfaf")
+	)
+	(text_box "À compléter avec le placement : découplage au plus près des broches d'alimentation, pad exposé (voir datasheet), entrées analogiques éloignées des pistes SPI."
+		(exclude_from_sim no)
+		(at 270.51 86.71 0)
+		(size 102.87 7.5)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 228 238 250 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d5c42483-c6aa-4fe4-b9f7-2398e7019b86")
+	)
+	(text_box "CALCULS & BUDGET"
+		(exclude_from_sim no)
+		(at 270.51 95.48 0)
+		(size 102.87 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 46 125 50 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "59564754-b22d-4f5a-aca3-922239b8ebe2")
+	)
+	(text_box "À compléter : courant AVDD / IOVDD selon le mode de puissance, bruit RMS et résolution effective selon le gain et le débit choisis."
+		(exclude_from_sim no)
+		(at 270.51 101.83 0)
+		(size 102.87 7.5)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 232 245 233 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d85a8780-8611-48d2-a8c0-38a66ab6f8b5")
+	)
+	(text_box "TEST POINTS"
+		(exclude_from_sim no)
+		(at 45.72 243 0)
+		(size 172.72 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 106 27 154 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "07b5a7ae-a0d1-4862-9074-e981ca2c6637")
+	)
+	(text_box "Zone réservée aux test points."
+		(exclude_from_sim no)
+		(at 45.72 249.35 0)
+		(size 172.72 35.65)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 243 232 246 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 110 90 120 1)
+			)
+			(justify left top)
+		)
+		(uuid "b779f301-34b9-43d5-8de4-a9cf96d7311b")
+	)
+	(text "References:"
+		(exclude_from_sim no)
+		(at 265.43 250.19 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f916e13-9d49-476b-a35a-dc0da731e728")
+	)
+	(text "AD7124-8 datasheet"
+		(exclude_from_sim no)
+		(at 265.43 254 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://www.analog.com/en/products/ad7124-8.html")
+		)
+		(uuid "fb7deb91-7fb7-42e9-a2eb-f2b8a666d73a")
+	)
+	(text "README : Design decisions"
+		(exclude_from_sim no)
+		(at 265.43 256.54 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://github.com/foukouda/OPEN_TEMP#design-decisions")
+		)
+		(uuid "eee0cb24-8f9d-4124-89bf-7962ae8c71a5")
+	)
+)

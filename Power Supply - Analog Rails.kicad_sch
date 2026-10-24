@@ -1,0 +1,372 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d01371f2-816d-4248-84c2-e28d60ae5a6d")
+	(paper "A3")
+	(title_block
+		(title "Power Supply - Analog Rails")
+		(date "2026-10-24")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 161.29 20.32 0)
+		(size 96.52 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "1f26e040-0a9c-4322-942d-d7e98b27dc27")
+	)
+	(rectangle
+		(start 45.72 39.37)
+		(end 266.7 240.03)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "821e64d8-6871-4a58-9e9c-78782d387c29")
+	)
+	(text_box "ALIMENTATION   ·   RAIL ANALOGIQUE AVDD ET RAIL NUMÉRIQUE IOVDD"
+		(exclude_from_sim no)
+		(at 45.72 39.37 0)
+		(size 220.98 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 162 22 34 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "dde5770a-9881-4e7b-b73a-44554e1aef9d")
+	)
+	(text "À DESSINER"
+		(exclude_from_sim no)
+		(at 156.21 142.24 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 200 200 200 1)
+			)
+		)
+		(uuid "1d237aca-34f7-4366-aa90-bfa60a7b1526")
+	)
+	(text_box "DESCRIPTION"
+		(exclude_from_sim no)
+		(at 270.51 39.37 0)
+		(size 102.87 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 105 120 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "3e981294-3bd0-4f16-a1fa-aaaa5d963401")
+	)
+	(text_box "Alimentation de l'AD7124-8 : AVDD (rail analogique) et IOVDD (interface SPI). Architecture à définir à partir de la tension fournie par l'hôte."
+		(exclude_from_sim no)
+		(at 270.51 45.72 0)
+		(size 102.87 7.5)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 230 243 245 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "dbdceb05-c45a-43f0-a7a8-27fe6020af91")
+	)
+	(text_box "DESIGN NOTE · À DÉFINIR"
+		(exclude_from_sim no)
+		(at 270.51 54.49 0)
+		(size 102.87 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 205 100 0 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "84090db3-7431-42d0-9e54-8ca023da4bbe")
+	)
+	(text_box "• Tension d'entrée fournie par l'hôte.\n• AVDD : régulateur faible bruit dédié ou rail filtré (plage AVDD de l'AD7124-8 : 2.7 V à 3.6 V).\n• IOVDD : niveau logique de l'hôte.\n• Séquencement des rails : voir page 9."
+		(exclude_from_sim no)
+		(at 270.51 60.84 0)
+		(size 102.87 13.95)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 253 241 226 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7d3efbb5-4896-4050-b34b-148ebad24088")
+	)
+	(text_box "LAYOUT NOTE"
+		(exclude_from_sim no)
+		(at 270.51 76.06 0)
+		(size 102.87 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 82 165 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "079eff4e-949d-470f-8585-0e263a190c84")
+	)
+	(text_box "À compléter."
+		(exclude_from_sim no)
+		(at 270.51 82.41 0)
+		(size 102.87 5.35)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 228 238 250 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d9143aaa-52ed-4a33-a6e4-80819c94ed06")
+	)
+	(text_box "CALCULS & BUDGET"
+		(exclude_from_sim no)
+		(at 270.51 89.03 0)
+		(size 102.87 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 46 125 50 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "c2802de8-f32f-4ebd-91e9-f014409b1f7f")
+	)
+	(text_box "À compléter : budget de courant par rail, dissipation du régulateur."
+		(exclude_from_sim no)
+		(at 270.51 95.38 0)
+		(size 102.87 5.35)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 232 245 233 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ce3cf53e-74a0-4fc0-8109-e70a7f7b8f15")
+	)
+	(text_box "TEST POINTS"
+		(exclude_from_sim no)
+		(at 45.72 243 0)
+		(size 172.72 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 106 27 154 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "c6362749-07cc-438a-b5d0-c58b0bde2683")
+	)
+	(text_box "Zone réservée aux test points."
+		(exclude_from_sim no)
+		(at 45.72 249.35 0)
+		(size 172.72 35.65)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 243 232 246 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 110 90 120 1)
+			)
+			(justify left top)
+		)
+		(uuid "a3a076e6-37ff-4429-9823-193e96d0aca5")
+	)
+	(text "References:"
+		(exclude_from_sim no)
+		(at 265.43 250.19 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "075702a8-0378-45ea-bc36-c120f144522d")
+	)
+	(text "AD7124-8 datasheet"
+		(exclude_from_sim no)
+		(at 265.43 254 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://www.analog.com/en/products/ad7124-8.html")
+		)
+		(uuid "adffeeb1-acb8-482c-8fa6-492793c2e986")
+	)
+	(text "README : Design decisions"
+		(exclude_from_sim no)
+		(at 265.43 256.54 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://github.com/foukouda/OPEN_TEMP#design-decisions")
+		)
+		(uuid "88d2c7bc-40df-4fa1-a6ed-3b4602447561")
+	)
+)

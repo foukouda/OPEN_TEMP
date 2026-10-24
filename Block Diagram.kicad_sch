@@ -1,0 +1,707 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e6e2c006-ff0b-4a86-9cbb-8655fb4b65fa")
+	(paper "A3")
+	(title_block
+		(title "Block Diagram")
+		(date "2026-10-24")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 144.78 20.32 0)
+		(size 130.81 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "5ce41562-edb7-48c3-bec3-c51eda1ace85")
+	)
+	(text_box "SCHÉMA BLOC   ·   CHAÎNE DE MESURE NTC   ·   PRÉLIMINAIRE"
+		(exclude_from_sim no)
+		(at 27.94 39.37 0)
+		(size 373.38 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 162 22 34 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "fee2aa74-f88d-4bef-9a4e-7f4d11553945")
+	)
+	(text "NTC PROBES"
+		(exclude_from_sim no)
+		(at 30 55 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.2 2.2)
+				(bold yes)
+				(color 122 82 170 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "01ae33ea-8e75-4a2f-8c2e-509b372bf7a2")
+	)
+	(text_box "J?  probe connectors\nNTC 1 ... N"
+		(exclude_from_sim no)
+		(at 30 58 0)
+		(size 46 24)
+		(margins 1.5 1.5 1.5 1.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 122 82 170 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "77588f3b-b66d-4951-9482-1d2c0745cb56")
+	)
+	(polyline
+		(pts
+			(xy 76 70)
+			(xy 92 70)
+			(xy 89.8 70.99)
+			(xy 92 70)
+			(xy 89.8 69.01)
+		)
+		(stroke
+			(width 0.9)
+			(type solid)
+			(color 122 82 170 1)
+		)
+		(uuid "fc6b4a60-1c87-4934-8844-9de9814b042d")
+	)
+	(text "NTC CHANNELS  (x N)"
+		(exclude_from_sim no)
+		(at 92 55 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.2 2.2)
+				(bold yes)
+				(color 74 153 204 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "275261eb-1e51-4f66-a955-7c2c1e03300d")
+	)
+	(text_box "Bridge resistor + NTC\nvoltage divider"
+		(exclude_from_sim no)
+		(at 92 58 0)
+		(size 52 24)
+		(margins 1.5 1.5 1.5 1.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 74 153 204 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "c7499401-b33d-4540-80ac-f19de03e0cf6")
+	)
+	(polyline
+		(pts
+			(xy 144 70)
+			(xy 160 70)
+			(xy 157.8 70.99)
+			(xy 160 70)
+			(xy 157.8 69.01)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 74 153 204 1)
+		)
+		(uuid "e21bbfdb-2a73-4d2e-9ac8-6b0b8fbc03a9")
+	)
+	(text_box "RC input filter\nanti-aliasing, ESD"
+		(exclude_from_sim no)
+		(at 160 58 0)
+		(size 52 24)
+		(margins 1.5 1.5 1.5 1.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 74 153 204 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "3410ac4b-002a-45b4-bb37-b9280db720bf")
+	)
+	(polyline
+		(pts
+			(xy 212 70)
+			(xy 240 70)
+			(xy 237.8 70.99)
+			(xy 240 70)
+			(xy 237.8 69.01)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 74 153 204 1)
+		)
+		(uuid "302402e5-1880-4846-8027-a6b1b424e160")
+	)
+	(text "AIN0 ... AIN15"
+		(exclude_from_sim no)
+		(at 226 68.5 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify bottom)
+		)
+		(uuid "f2a95f11-823a-4fee-b7a0-ed6177d515b5")
+	)
+	(text "DATA ACQUISITION"
+		(exclude_from_sim no)
+		(at 240 55 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.2 2.2)
+				(bold yes)
+				(color 26 150 30 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "aeae0f48-cb66-454e-8e5d-d5c35651793a")
+	)
+	(text_box "IC1\nAD7124-8\n\n24 bit sigma-delta\n8 diff. / 15 pseudo-diff.\nPGA, internal reference\nexcitation currents"
+		(exclude_from_sim no)
+		(at 240 58 0)
+		(size 52 56)
+		(margins 1.5 1.5 1.5 1.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 26 150 30 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.2 2.2)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "88ec7583-d54a-4b4d-b3af-801ba8513dfd")
+	)
+	(polyline
+		(pts
+			(xy 292 72)
+			(xy 318 72)
+			(xy 315.8 72.99)
+			(xy 318 72)
+			(xy 315.8 71.01)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 110 110 110 1)
+		)
+		(uuid "d17c9456-8271-433d-bb19-ee39ee4fc253")
+	)
+	(polyline
+		(pts
+			(xy 294.2 71.01)
+			(xy 292 72)
+			(xy 294.2 72.99)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 110 110 110 1)
+		)
+		(uuid "605bf093-3fe4-4897-8377-5a6f7c148eb3")
+	)
+	(text "SPI"
+		(exclude_from_sim no)
+		(at 305 70.5 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify bottom)
+		)
+		(uuid "2553b1cd-dc37-4e7c-822e-be3e771c81d0")
+	)
+	(text "SCLK, DIN,\nDOUT/RDY, CS"
+		(exclude_from_sim no)
+		(at 305 74 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.4 1.4)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "8d085b4d-6d28-4853-bdd2-8c32a05d17d6")
+	)
+	(text_box "Host MCU\n\nSPI master\nsupply"
+		(exclude_from_sim no)
+		(at 318 58 0)
+		(size 44 30)
+		(margins 1.5 1.5 1.5 1.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 110 110 110 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 110 110 110 1)
+			)
+		)
+		(uuid "2f4c1dd1-a091-47be-a8a3-52298a727561")
+	)
+	(polyline
+		(pts
+			(xy 330 88)
+			(xy 330 106)
+			(xy 292 106)
+			(xy 294.2 105.01)
+			(xy 292 106)
+			(xy 294.2 106.99)
+		)
+		(stroke
+			(width 0.6)
+			(type solid)
+			(color 42 120 214 1)
+		)
+		(uuid "60432249-b7f2-465c-9b08-3e400ff2727a")
+	)
+	(text "IOVDD"
+		(exclude_from_sim no)
+		(at 296 105 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(bold yes)
+				(color 42 120 214 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2ddb6ad-d8b3-4e0b-8c4f-9c9a2331d5aa")
+	)
+	(text "POWER SUPPLY"
+		(exclude_from_sim no)
+		(at 30 128 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.2 2.2)
+				(bold yes)
+				(color 150 110 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b858883-ca84-43ae-8d12-1753b4050320")
+	)
+	(text "Host supply"
+		(exclude_from_sim no)
+		(at 31 139 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.2 2.2)
+				(bold yes)
+				(color 42 120 214 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a6a0f7a-e651-4f31-ad8e-f8f5a518532e")
+	)
+	(text "voltage to be defined"
+		(exclude_from_sim no)
+		(at 31 143 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "66d57e8b-14fd-4057-956f-91737de16d1e")
+	)
+	(polyline
+		(pts
+			(xy 56 140)
+			(xy 68 140)
+			(xy 65.8 140.99)
+			(xy 68 140)
+			(xy 65.8 139.01)
+		)
+		(stroke
+			(width 0.9)
+			(type solid)
+			(color 42 120 214 1)
+		)
+		(uuid "2a73a1f1-55ef-4d35-8db6-e55fca0d315f")
+	)
+	(text_box "AVDD regulator\nlow-noise, to be defined"
+		(exclude_from_sim no)
+		(at 68 130 0)
+		(size 52 20)
+		(margins 1.5 1.5 1.5 1.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 224 128 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "32f9e1c8-921c-416a-a3f9-8769f89b6e12")
+	)
+	(polyline
+		(pts
+			(xy 120 140)
+			(xy 266 140)
+			(xy 266 114)
+			(xy 266.99 116.2)
+			(xy 266 114)
+			(xy 265.01 116.2)
+		)
+		(stroke
+			(width 0.9)
+			(type solid)
+			(color 27 175 122 1)
+		)
+		(uuid "b41c97c1-e56c-466b-bea8-28e3bb3e66e3")
+	)
+	(text "AVDD"
+		(exclude_from_sim no)
+		(at 200 138.5 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.2 2.2)
+				(bold yes)
+				(color 27 175 122 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "884ec305-6094-4a4b-8b66-7898d0da4a75")
+	)
+	(text "AD7124-8 analog supply, 2.7 V to 3.6 V"
+		(exclude_from_sim no)
+		(at 200 141.5 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f78c26db-5690-4101-9d73-c4b76dbf2a0c")
+	)
+	(text_box "NOTE"
+		(exclude_from_sim no)
+		(at 30 176.53 0)
+		(size 120 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 205 100 0 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "366e35a5-0196-44b2-b2a5-9d7a75c0a1c4")
+	)
+	(text_box "Schéma bloc préliminaire, dessiné avant le schéma. Le nombre de voies, la référence et l'alimentation sont à décider (README, DESIGN DECISIONS). Remplacer chaque valeur par celle de la netlist quand les feuilles seront dessinées."
+		(exclude_from_sim no)
+		(at 30 182.88 0)
+		(size 120 14)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 253 241 226 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b059308d-4925-4996-8663-c66eba40ae59")
+	)
+	(text_box "SPÉCIFICATIONS CIBLES"
+		(exclude_from_sim no)
+		(at 318 176.53 0)
+		(size 82 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 105 120 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "92d97c01-6cd1-422a-87ca-6676cb87d8e5")
+	)
+	(text "Sensors:"
+		(exclude_from_sim no)
+		(at 320 190 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d73b4a2b-ff0a-4350-b1fc-85a8653af462")
+	)
+	(text "NTC thermistors"
+		(exclude_from_sim no)
+		(at 345 190 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4679e620-832d-46a8-9ef3-f35a8b6cf342")
+	)
+	(text "Channels:"
+		(exclude_from_sim no)
+		(at 320 196 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "39d662c5-938b-443c-842d-535196384d5d")
+	)
+	(text "to be defined"
+		(exclude_from_sim no)
+		(at 345 196 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "80b419b3-a1c6-4f0f-b5d2-c6f3b0b4001f")
+	)
+	(text "ADC:"
+		(exclude_from_sim no)
+		(at 320 202 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f06890d9-4e76-4933-85fe-0477bff96b08")
+	)
+	(text "AD7124-8, 24 bit"
+		(exclude_from_sim no)
+		(at 345 202 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "223d0e40-7efd-4b1c-80ae-11b1ca1554ab")
+	)
+	(text "Interface:"
+		(exclude_from_sim no)
+		(at 320 208 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a36e8f5d-b985-4c1b-b8fa-3f0afdef9f9d")
+	)
+	(text "SPI"
+		(exclude_from_sim no)
+		(at 345 208 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "35c030e8-b074-4d13-8548-4b7d9eca73f6")
+	)
+	(text "Supply:"
+		(exclude_from_sim no)
+		(at 320 214 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d11006ae-653d-4516-ad4d-d6ace2464ae4")
+	)
+	(text "to be defined"
+		(exclude_from_sim no)
+		(at 345 214 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec13a39a-e2f7-459b-a329-ead08dbc6dbc")
+	)
+	(text "Accuracy:"
+		(exclude_from_sim no)
+		(at 320 220 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f3c63ba-1ac4-4578-ac1a-e98cc15427f5")
+	)
+	(text "to be defined"
+		(exclude_from_sim no)
+		(at 345 220 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3d2108b-cd92-4ee6-b331-5ce7f4f05daf")
+	)
+)

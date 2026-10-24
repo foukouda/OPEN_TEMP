@@ -1,0 +1,1104 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cb12648b-225d-496b-a476-b0e60d2f820b")
+	(paper "A3")
+	(title_block
+		(title "Project Architecture")
+		(date "2026-10-24")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 144.78 21.59 0)
+		(size 130.81 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "21714d63-a0b4-4554-8255-ae711574bf30")
+	)
+	(text "Sheet hierarchy and signal flow. Click a block or its page number to open the sheet."
+		(exclude_from_sim no)
+		(at 210.82 49.53 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(color 110 110 110 1)
+			)
+		)
+		(uuid "7348b9d3-7991-4198-bf5f-bbd481258b9f")
+	)
+	(text_box "DATA ACQUISITION"
+		(exclude_from_sim no)
+		(at 227.33 67.79 0)
+		(size 66.04 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 111 84 181 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "0f96fe8c-4689-4c40-bf3e-2bf1ca2743c7")
+	)
+	(sheet
+		(at 227.33 81.28)
+		(size 66.04 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(color 111 84 181 0.18)
+		)
+		(uuid "7dcd968e-d5b7-4599-965f-81dd567c982d")
+		(property "Sheetname" "AD7124-8_ADC"
+			(at 227.33 80.2509 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AD7124-8 - ADC.kicad_sch"
+			(at 227.33 119.7746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OPEN_TEMP"
+				(path "/8f7323a2-cd6a-4eae-b718-676dffcb6ec2/397927d1-b530-4fc4-8c45-69626f01402d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(text "IC1 AD7124-8  24 bit sigma-delta\n8 diff. / 15 pseudo-diff. inputs\nPGA, internal reference\nSPI to the host\n(to be drawn)"
+		(exclude_from_sim no)
+		(at 229.87 85.09 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.9 1.9)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ccdb5713-886e-4867-bfdd-4bedf2e38cc9")
+	)
+	(text "Page 4"
+		(exclude_from_sim no)
+		(at 290.83 116.84 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#4")
+		)
+		(uuid "eb051ebf-b87b-4338-8f9e-cff4ba68d1e5")
+	)
+	(text_box "NTC FRONT-END"
+		(exclude_from_sim no)
+		(at 127 67.79 0)
+		(size 66.04 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 21 128 61 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "f6784ac2-46d6-4aee-b670-4f89aaea4cf9")
+	)
+	(sheet
+		(at 127 81.28)
+		(size 66.04 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(color 21 128 61 0.18)
+		)
+		(uuid "5cf8a963-37d9-4cf5-8212-00500da0179e")
+		(property "Sheetname" "NTC_Inputs"
+			(at 127 80.2509 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NTC - Thermistors.kicad_sch"
+			(at 127 119.7746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OPEN_TEMP"
+				(path "/8f7323a2-cd6a-4eae-b718-676dffcb6ec2/397927d1-b530-4fc4-8c45-69626f01402d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(text "NTC thermistor channels\nBridge resistor + NTC\nRC input filter per channel\n(to be drawn)"
+		(exclude_from_sim no)
+		(at 129.54 85.09 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.9 1.9)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0f22638b-346d-469a-a459-d9414f33ff2e")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 190.5 116.84 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "a8a3409c-f870-4885-81ef-194059f00d44")
+	)
+	(text_box "POWER SUPPLY"
+		(exclude_from_sim no)
+		(at 127 136.37 0)
+		(size 66.04 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 176 64 102 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "7842fed6-c0bd-4594-8bcf-d5163e6783a4")
+	)
+	(sheet
+		(at 127 149.86)
+		(size 66.04 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(color 176 64 102 0.18)
+		)
+		(uuid "5c705ac4-7216-412a-a4e4-fff98ed55c72")
+		(property "Sheetname" "Power_Supply"
+			(at 127 148.8309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Supply - Analog Rails.kicad_sch"
+			(at 127 188.3546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OPEN_TEMP"
+				(path "/8f7323a2-cd6a-4eae-b718-676dffcb6ec2/397927d1-b530-4fc4-8c45-69626f01402d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(text "AVDD analog rail (2.7 V to 3.6 V)\nIOVDD digital rail\nRegulator to be defined\n(to be drawn)"
+		(exclude_from_sim no)
+		(at 129.54 153.67 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.9 1.9)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d8e16876-2aaf-4b7f-b0c5-846e34bee367")
+	)
+	(text "Page 6"
+		(exclude_from_sim no)
+		(at 190.5 185.42 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#6")
+		)
+		(uuid "8e1558f9-0aab-4e57-8c05-dd3739fed474")
+	)
+	(text_box "CONNECTORS"
+		(exclude_from_sim no)
+		(at 26.67 67.79 0)
+		(size 66.04 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 74 155 203 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "30e2dd15-75c4-47fe-898a-332653923ed1")
+	)
+	(sheet
+		(at 26.67 81.28)
+		(size 66.04 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(color 74 155 203 0.18)
+		)
+		(uuid "8d59c4a8-71f1-4850-bcac-75c40dad9599")
+		(property "Sheetname" "Connectors"
+			(at 26.67 80.2509 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 26.67 119.7746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OPEN_TEMP"
+				(path "/8f7323a2-cd6a-4eae-b718-676dffcb6ec2/397927d1-b530-4fc4-8c45-69626f01402d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(text "J?  NTC probe connectors\nJ?  host connector:\n      SPI, supply, GND\n(to be drawn)"
+		(exclude_from_sim no)
+		(at 29.21 85.09 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.9 1.9)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "e5ee9c27-fcaa-4596-8f84-d679ecd4e9cf")
+	)
+	(text "Page 7"
+		(exclude_from_sim no)
+		(at 90.17 116.84 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#7")
+		)
+		(uuid "f996d365-874f-44ca-a3a1-41cb8724ccfa")
+	)
+	(text_box "MECHANICAL"
+		(exclude_from_sim no)
+		(at 26.67 136.37 0)
+		(size 66.04 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 120 120 120 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "2d6ae8fe-8440-48da-947a-f51a64461458")
+	)
+	(sheet
+		(at 26.67 149.86)
+		(size 66.04 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill
+			(color 120 120 120 0.18)
+		)
+		(uuid "a8e0b98f-d666-4dd4-ad81-b7e53fa1aee8")
+		(property "Sheetname" "Holes, Fiducials"
+			(at 26.67 148.8309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Holes - Fiducials.kicad_sch"
+			(at 26.67 188.3546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OPEN_TEMP"
+				(path "/8f7323a2-cd6a-4eae-b718-676dffcb6ec2/397927d1-b530-4fc4-8c45-69626f01402d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(text "H1-H4  M3 mounting holes\nPads connected to GND\nNo fiducial on this revision"
+		(exclude_from_sim no)
+		(at 29.21 153.67 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.9 1.9)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c887c3c7-78e5-4bfd-9277-ccef576f8928")
+	)
+	(text "Page 8"
+		(exclude_from_sim no)
+		(at 90.17 185.42 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#8")
+		)
+		(uuid "786b3867-1576-4554-b763-48fb4f37d240")
+	)
+	(text_box "HOST INTERFACE"
+		(exclude_from_sim no)
+		(at 327.66 67.79 0)
+		(size 66.04 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 120 120 120 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "02f28ce5-a95f-4cf4-900b-9a6e3b239300")
+	)
+	(polyline
+		(pts
+			(xy 327.66 81.28)
+			(xy 393.7 81.28)
+			(xy 393.7 119.38)
+			(xy 327.66 119.38)
+			(xy 327.66 81.28)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+			(color 150 150 150 1)
+		)
+		(uuid "779f403a-f3a8-42ea-be01-634a9609b238")
+	)
+	(text "Host MCU, through Connectors\nSPI master, supplies the board"
+		(exclude_from_sim no)
+		(at 330.2 85.09 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.9 1.9)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7b2d7b8f-f909-4da0-adcf-de08dd5e210d")
+	)
+	(text "Page 7"
+		(exclude_from_sim no)
+		(at 391.16 116.84 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#7")
+		)
+		(uuid "9fed3274-dd0c-4ef8-b431-7af8bc0b66ed")
+	)
+	(polyline
+		(pts
+			(xy 92.71 93.98)
+			(xy 127 93.98)
+			(xy 124.8 94.97)
+			(xy 127 93.98)
+			(xy 124.8 92.99)
+		)
+		(stroke
+			(width 0.35)
+			(type solid)
+			(color 21 128 61 1)
+		)
+		(uuid "0a5fe36f-ab78-4bca-ab4c-3c2b09edd322")
+	)
+	(text "NTC probes"
+		(exclude_from_sim no)
+		(at 109.855 92.71 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(color 0 0 0 1)
+			)
+			(justify bottom)
+		)
+		(uuid "dec59de7-e454-441b-865e-9fbc3020f72d")
+	)
+	(text "J?, channels 1 ... N"
+		(exclude_from_sim no)
+		(at 109.855 95.88 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.3 1.3)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "f8fbec5f-bd10-44ca-b3d8-70179531403d")
+	)
+	(polyline
+		(pts
+			(xy 193.04 93.98)
+			(xy 227.33 93.98)
+			(xy 225.13 94.97)
+			(xy 227.33 93.98)
+			(xy 225.13 92.99)
+		)
+		(stroke
+			(width 0.35)
+			(type solid)
+			(color 21 128 61 1)
+		)
+		(uuid "b37b6d9f-763e-4bf6-bf2d-3051b27c91d1")
+	)
+	(text "N x NTC voltage"
+		(exclude_from_sim no)
+		(at 210.185 92.71 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(color 0 0 0 1)
+			)
+			(justify bottom)
+		)
+		(uuid "660a74bb-f907-4229-afef-033ea96362fe")
+	)
+	(text "AIN0 ... AIN15"
+		(exclude_from_sim no)
+		(at 210.185 95.88 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.3 1.3)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "ab4a88f6-e56d-4b7c-8e5f-524c467459b7")
+	)
+	(polyline
+		(pts
+			(xy 293.37 100.33)
+			(xy 327.66 100.33)
+			(xy 325.46 101.32)
+			(xy 327.66 100.33)
+			(xy 325.46 99.34)
+		)
+		(stroke
+			(width 0.35)
+			(type solid)
+			(color 40 90 200 1)
+		)
+		(uuid "89d47638-df15-43e5-990b-4291a51753bb")
+	)
+	(polyline
+		(pts
+			(xy 295.57 99.34)
+			(xy 293.37 100.33)
+			(xy 295.57 101.32)
+		)
+		(stroke
+			(width 0.35)
+			(type solid)
+			(color 40 90 200 1)
+		)
+		(uuid "c54fa6c6-f78e-442a-aa7b-42d51ffef871")
+	)
+	(text "SPI"
+		(exclude_from_sim no)
+		(at 310.515 99.06 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(color 0 0 0 1)
+			)
+			(justify bottom)
+		)
+		(uuid "233137f1-7dc3-4ea8-a675-c0c7485c78af")
+	)
+	(text "SCLK, DIN, DOUT/RDY, CS"
+		(exclude_from_sim no)
+		(at 310.515 102.23 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.3 1.3)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "852d44f6-a457-4c41-a2d0-8bfd9a8f6180")
+	)
+	(polyline
+		(pts
+			(xy 193.04 165.1)
+			(xy 260.35 165.1)
+			(xy 260.35 119.38)
+			(xy 261.34 121.58)
+			(xy 260.35 119.38)
+			(xy 259.36 121.58)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 214 64 180 1)
+		)
+		(uuid "5c453617-5df9-4b3d-9078-93ddb01ecfae")
+	)
+	(text "AVDD, IOVDD"
+		(exclude_from_sim no)
+		(at 262 125.98 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fe526de-c49b-447e-8ed9-fb9716adc08c")
+	)
+	(polyline
+		(pts
+			(xy 360.68 119.38)
+			(xy 360.68 177.8)
+			(xy 193.04 177.8)
+			(xy 195.24 176.81)
+			(xy 193.04 177.8)
+			(xy 195.24 178.79)
+		)
+		(stroke
+			(width 0.6)
+			(type dash)
+			(color 214 64 180 1)
+		)
+		(uuid "6e9f7d3f-3104-4a45-bfb2-e4dd1da24f09")
+	)
+	(text "Supply from the host"
+		(exclude_from_sim no)
+		(at 276.86 176.53 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae8abf0c-912c-4bb2-a711-84612e47233b")
+	)
+	(text_box "LEGEND"
+		(exclude_from_sim no)
+		(at 26.67 198.6 0)
+		(size 85.09 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 70 70 70 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "295774eb-3da2-4794-819f-8bdd773dd41d")
+	)
+	(text_box "DOCUMENT INDEX"
+		(exclude_from_sim no)
+		(at 127 198.6 0)
+		(size 101.6 6.35)
+		(margins 1.6 1.6 1.6 1.6)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 70 70 70 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.8 1.8)
+				(thickness 0.36)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "b9bd2734-c794-43be-8426-4541cb283ab1")
+	)
+	(polyline
+		(pts
+			(xy 27.94 211.455)
+			(xy 38.1 211.455)
+		)
+		(stroke
+			(width 0.35)
+			(type solid)
+			(color 21 128 61 1)
+		)
+		(uuid "04bd5939-7146-415a-bd8f-54abf01781ca")
+	)
+	(text "Analog signal (NTC)"
+		(exclude_from_sim no)
+		(at 40.64 211.455 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "37bdbbd2-b8b1-4999-ac3a-442d85e66789")
+	)
+	(polyline
+		(pts
+			(xy 27.94 216.535)
+			(xy 38.1 216.535)
+		)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 214 64 180 1)
+		)
+		(uuid "943f49d9-ae1f-4634-b8ee-7caa0d12911e")
+	)
+	(text "Power rail"
+		(exclude_from_sim no)
+		(at 40.64 216.535 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "f93faece-2b98-46f7-bf1b-b2258e942564")
+	)
+	(polyline
+		(pts
+			(xy 27.94 221.615)
+			(xy 38.1 221.615)
+		)
+		(stroke
+			(width 0.35)
+			(type solid)
+			(color 40 90 200 1)
+		)
+		(uuid "6315cea5-3125-4c92-8338-93dde9594211")
+	)
+	(text "Digital interface (SPI)"
+		(exclude_from_sim no)
+		(at 40.64 221.615 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "bd695822-80de-49c9-b033-ce31290f009b")
+	)
+	(polyline
+		(pts
+			(xy 27.94 226.695)
+			(xy 38.1 226.695)
+		)
+		(stroke
+			(width 0.6)
+			(type dash)
+			(color 214 64 180 1)
+		)
+		(uuid "1b19d458-645c-4b9e-8471-d44ded4269db")
+	)
+	(text "Supply input from the host"
+		(exclude_from_sim no)
+		(at 40.64 226.695 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "74922291-a1e1-4a2f-a1b0-e776c5223d8a")
+	)
+	(text "[1]  Title Page"
+		(exclude_from_sim no)
+		(at 127 211.455 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+			(href "#1")
+		)
+		(uuid "48c5bee9-088b-4b6c-8a86-2f67f67105b2")
+	)
+	(text "[2]  Block Diagram"
+		(exclude_from_sim no)
+		(at 127 216.535 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+			(href "#2")
+		)
+		(uuid "c1107d6b-3d45-4f18-b3e2-4bbe0c5de11f")
+	)
+	(text "[3]  Project Architecture"
+		(exclude_from_sim no)
+		(at 127 221.615 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "3f2929ac-74e1-4994-87fe-24ac6ebf74c6")
+	)
+	(text "[4]  AD7124-8 ADC"
+		(exclude_from_sim no)
+		(at 127 226.695 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+			(href "#4")
+		)
+		(uuid "d66a0143-b360-4754-9fc0-43f3b04d2aa5")
+	)
+	(text "[5]  NTC Inputs"
+		(exclude_from_sim no)
+		(at 127 231.775 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+			(href "#5")
+		)
+		(uuid "1105b479-01ea-4c94-a00d-ab6041509fca")
+	)
+	(text "[6]  Power Supply - Analog Rails"
+		(exclude_from_sim no)
+		(at 190.5 211.455 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "cb6b24cf-7cb3-48f7-a567-5152ef26dcae")
+	)
+	(text "[7]  Connectors"
+		(exclude_from_sim no)
+		(at 190.5 216.535 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+			(href "#7")
+		)
+		(uuid "9e8039de-6a61-4653-af57-a803e13ee2cc")
+	)
+	(text "[8]  Holes, Fiducials"
+		(exclude_from_sim no)
+		(at 190.5 221.615 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+			(href "#8")
+		)
+		(uuid "95a84a0b-fbd0-4be8-814e-749c635ab160")
+	)
+	(text "[9]  Power Sequencing"
+		(exclude_from_sim no)
+		(at 190.5 226.695 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+			(href "#9")
+		)
+		(uuid "21d99cbb-acb1-4f69-9fd6-084ae5d727d9")
+	)
+	(text "[10]  Revision History"
+		(exclude_from_sim no)
+		(at 190.5 231.775 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.6 1.6)
+				(color 0 0 0 1)
+			)
+			(justify left)
+			(href "#10")
+		)
+		(uuid "be5231d5-148c-4a76-ad47-7e7f6107fa68")
+	)
+)

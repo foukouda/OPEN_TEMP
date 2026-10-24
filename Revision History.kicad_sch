@@ -1,0 +1,144 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9048e497-7f00-4d53-a963-813ab19a79d5")
+	(paper "A3")
+	(title_block
+		(title "Revision History")
+		(date "2026-10-24")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 161.29 20.32 0)
+		(size 96.52 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "0a9a05b2-b953-4d20-8323-5aff6933bca9")
+	)
+	(text_box "${RELEASE_BODY_UNRELEASED}"
+		(exclude_from_sim no)
+		(at 48.26 46.99 0)
+		(size 76.2 191.77)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "95e79c7f-512c-4c15-9f62-004f32dd3178")
+	)
+	(text_box "${RELEASE_TITLE_UNRELEASED}"
+		(exclude_from_sim no)
+		(at 46.99 39.37 0)
+		(size 78.74 6.35)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 162 22 34 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "ace0c85b-0403-4f0a-8d01-c5b89f9bf263")
+	)
+	(polyline
+		(pts
+			(xy 289.56 39.37)
+			(xy 289.56 240.03)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 190 190 190 1)
+		)
+		(uuid "4cb19227-c146-4848-a769-adf92a2e4ae5")
+	)
+	(polyline
+		(pts
+			(xy 208.28 39.37)
+			(xy 208.28 240.03)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 190 190 190 1)
+		)
+		(uuid "ea2009a9-6311-406f-8af0-a9939f1c2f03")
+	)
+	(polyline
+		(pts
+			(xy 370.84 39.37)
+			(xy 370.84 240.03)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 190 190 190 1)
+		)
+		(uuid "e617c0f3-ba45-4ca0-afc8-ffc288005125")
+	)
+	(polyline
+		(pts
+			(xy 45.72 39.37)
+			(xy 45.72 240.03)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 190 190 190 1)
+		)
+		(uuid "d2bfdf76-73a3-4e78-83a5-d4f2f194ba0d")
+	)
+	(polyline
+		(pts
+			(xy 127 39.37)
+			(xy 127 240.03)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 190 190 190 1)
+		)
+		(uuid "66ff4a4a-8ea8-41e2-becf-7e9b2554e3f2")
+	)
+)

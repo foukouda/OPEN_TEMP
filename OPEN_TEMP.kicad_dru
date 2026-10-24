@@ -1,0 +1,104 @@
+(version 1)
+# JLCPCB custom DRC rules for KiCad 10
+# Target: JLCPCB standard 4-layer, 1 oz outer / 0.5 oz inner, FR-4 1.6 mm (JLC04161H-7628)
+# Source: https://jlcpcb.com/capabilities/pcb-capabilities
+# Values are JLCPCB minimums (no extra cost); keep margin where the layout allows it.
+
+# ----------------------------------- Track width and spacing -----------------------------------
+
+(rule "JLC outer layer track width / clearance"
+	(layer outer)
+	(condition "A.Type == 'track'")
+	(constraint track_width (min 0.1mm))
+	(constraint clearance (min 0.1mm)))
+
+(rule "JLC inner layer track width / clearance"
+	(layer inner)
+	(condition "A.Type == 'track'")
+	(constraint track_width (min 0.09mm))
+	(constraint clearance (min 0.09mm)))
+
+# ----------------------------------- Holes -----------------------------------------------------
+
+(rule "JLC drill range"
+	(constraint hole_size (min 0.15mm) (max 6.3mm)))
+
+(rule "JLC via size"
+	(condition "A.Type == 'Via'")
+	(constraint hole_size (min 0.15mm))
+	(constraint via_diameter (min 0.25mm))
+	(constraint annular_width (min 0.05mm)))
+
+(rule "JLC plated pad hole"
+	(condition "A.Type == 'Pad' && A.isPlated()")
+	(constraint hole_size (min 0.15mm))
+	(constraint annular_width (min 0.05mm)))
+
+(rule "JLC NPTH min hole"
+	(condition "A.Type == 'Pad' && !A.isPlated()")
+	(constraint hole_size (min 0.5mm)))
+
+(rule "JLC plated slot min width"
+	(condition "A.isPlated() && A.Hole_Size_X != A.Hole_Size_Y")
+	(constraint hole_size (min 0.5mm)))
+
+(rule "JLC non-plated slot min width"
+	(condition "!A.isPlated() && A.Hole_Size_X != A.Hole_Size_Y")
+	(constraint hole_size (min 1.0mm)))
+
+# ----------------------------------- Clearances ------------------------------------------------
+
+(rule "JLC hole to hole (different nets)"
+	(condition "A.Net != B.Net")
+	(constraint hole_to_hole (min 0.5mm)))
+
+(rule "JLC hole to hole (same net)"
+	(condition "A.Net == B.Net")
+	(constraint hole_to_hole (min 0.25mm)))
+
+(rule "JLC via hole to track"
+	(condition "A.Type == 'Via' && B.Type == 'track'")
+	(constraint hole_clearance (min 0.2mm)))
+
+(rule "JLC PTH hole to track"
+	(condition "A.isPlated() && A.Type != 'Via' && B.Type == 'track'")
+	(constraint hole_clearance (min 0.2mm)))
+
+(rule "JLC NPTH hole to copper"
+	(condition "A.Pad_Type == 'NPTH, mechanical'")
+	(constraint hole_clearance (min 0.2mm)))
+
+(rule "JLC SMD pad to pad (different nets)"
+	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Net != B.Net")
+	(constraint clearance (min 0.127mm)))
+
+(rule "JLC copper to board edge"
+	(constraint edge_clearance (min 0.2mm)))
+
+# Mounting holes H1-H4 use a GND pad that intentionally reaches the board edge
+# (chassis/ground contact through the M3 screw). JLC clips copper at the outline.
+(rule "Mounting hole pads may touch the board edge"
+	(condition "A.memberOfFootprint('H1') || A.memberOfFootprint('H2') || A.memberOfFootprint('H3') || A.memberOfFootprint('H4')")
+	(constraint edge_clearance (min 0mm)))
+
+# ----------------------------------- Silkscreen ------------------------------------------------
+
+(rule "JLC minimum silkscreen text"
+	(layer "?.Silkscreen")
+	(constraint text_thickness (min 0.15mm))
+	(constraint text_height (min 1.0mm)))
+
+(rule "JLC pad to silkscreen"
+	(layer outer)
+	(condition "A.Type == 'Pad' && (B.Type == 'Text' || B.Type == 'Graphic')")
+	(constraint silk_clearance (min 0.15mm)))
+
+# ----------------------------------- Courtyard exceptions --------------------------------------
+
+(rule "Test points may overlap other courtyards"
+	(condition "A.Reference == 'TP*'")
+	(constraint courtyard_clearance (min -1mm)))
+
+(rule "Fiducials may overlap other courtyards"
+	(condition "A.Reference == 'FID*'")
+	(constraint courtyard_clearance (min -1mm)))

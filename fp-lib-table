@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "OPEN_TEMP")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/OPEN_TEMP.pretty")(options "")(descr "OPEN_TEMP project footprints (3D models in lib/3d_models)"))
+)
